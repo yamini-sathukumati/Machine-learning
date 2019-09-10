@@ -1,0 +1,2001 @@
+TCID,AppName,EXEDATE,STATUS,RCA(ENV|CODE|DATA|REQ)
+79,Facebook,07.30.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+185,TechCrunch,05.26.19,Fail,STG|for i in Age|list index out of range|looping
+169,Guardian,07.06.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+156,Zomato,06.20.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+7,Zomato,05.01.19,Pass,
+131,Zomato,06.10.19,Fail,DEV|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming
+102,Netflix,05.20.19,Pass,
+7,Netflix,07.21.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+3,Instagram,08.27.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+125,Uber,09.12.19,Pass,
+8,Facebook,07.29.19,Fail,"DEV| print ""Ok""|Missing parentheses in call to 'print'| printing"
+167,Hotstar,08.23.19,Pass,
+85,Uber,08.13.19,Pass,
+99,Netflix,08.21.19,Pass,
+82,Hotstar,06.30.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+158,ACM,07.24.19,Fail,"DEV|print(""a[10]"")|No varible named a|retrive data"
+77,TechCrunch,09.19.19,Fail,PROD|print(('python')*a)|a: variable undefined|retrieve data
+35,TechCrunch,06.16.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+8,Uber,04.26.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+5,Facebook,08.13.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+198,Netflix,09.04.19,Pass,
+120,UberEats,06.27.19,Fail,"DEV| print ""Ok""|Missing parentheses in call to 'print'| printing"
+191,Netflix,09.20.19,Pass,
+79,UberEats,04.19.19,Pass,
+52,Instagram,07.06.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+129,Facebook,06.22.19,Fail,UAT|import pandasa as pd|pandas: Package not found|importing
+88,Uber,04.19.19,Pass,
+141,Guardian,09.12.19,Fail,UAT|form.submit(name[0])|Array index out of bounds|Need to specify name
+150,Netflix,04.11.19,Pass,
+117,Netflix,04.02.19,Pass,
+84,Zomato,04.08.19,Fail,STG|for x in range(10)|List out of index [15]|looping
+69,Hotstar,05.24.19,Fail,DEV|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming
+139,Instagram,08.03.19,Pass,
+157,UberEats,07.11.19,Pass,
+28,Zomato,08.31.19,Pass,
+144,Instagram,04.22.19,Pass,
+9,Guardian,09.12.19,Pass,
+171,Hotstar,07.03.19,Fail,"UAT|return func(*args, **kw)|InterruptedError|Handle Interrupt Error"
+133,Guardian,09.30.19,Fail,PROD|import numpy as np|numpy: Package not found|importing
+91,Uber,07.26.19,Pass,
+40,ACM,09.24.19,Fail,DEV|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming
+96,Netflix,09.29.19,Fail,PROD|print(('python')*a)|a: variable undefined|retrieve data
+161,Instagram,05.28.19,Fail,"STG|for i,j in range()|range expected 1 arguments|parsing"
+191,Guardian,09.28.19,Pass,
+62,TechCrunch,08.11.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+166,Facebook,05.31.19,Pass,
+156,TechCrunch,04.01.19,Pass,
+95,UberEats,07.25.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+101,Hotstar,04.05.19,Pass,
+118,Uber,06.18.19,Pass,
+73,ACM,04.17.19,Fail,DEV|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming
+85,Facebook,05.01.19,Pass,
+183,Hotstar,08.20.19,Pass,
+101,Instagram,08.09.19,Pass,
+185,Instagram,06.29.19,Pass,
+23,UberEats,05.16.19,Fail,PROD|import numpy as np|numpy: Package not found|importing
+150,Netflix,05.29.19,Pass,
+154,Guardian,09.11.19,Fail,PROD|np.arange(8)|numpy array out of range|looping
+12,Instagram,04.08.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+81,Netflix,06.16.19,Fail,UAT|form.submit(name[0])|Array index out of bounds|Need to specify name
+32,Facebook,06.14.19,Pass,
+95,UberEats,09.28.19,Pass,
+139,Netflix,09.01.19,Pass,
+91,Zomato,07.05.19,Pass,
+195,Netflix,05.10.19,Pass,
+8,Instagram,06.06.19,Pass,
+131,Facebook,07.25.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+196,Uber,09.03.19,Pass,
+49,Facebook,07.02.19,Pass,
+125,Hotstar,09.22.19,Pass,
+91,TechCrunch,05.27.19,Fail,"STG|for i,j in range()|range expected 1 arguments|parsing"
+144,Facebook,07.03.19,Pass,
+158,Netflix,08.01.19,Pass,
+47,Instagram,06.21.19,Fail,DEV|print(df.columns)|df: undefined dataframe|retrive data
+199,UberEats,08.05.19,Fail,"DEV| print ""Ok""|Missing parentheses in call to 'print'| printing"
+93,Zomato,04.29.19,Pass,
+147,ACM,04.18.19,Pass,
+55,Netflix,04.12.19,Pass,
+169,UberEats,08.29.19,Fail,DEV|plt.show()|displaying graph without plotting it|plotting
+190,UberEats,04.03.19,Fail,DEV|plt.show()|displaying graph without plotting it|plotting
+148,Facebook,08.26.19,Pass,
+87,Zomato,06.14.19,Fail,"STG|for i,j in range()|range expected 1 arguments|parsing"
+180,Facebook,04.18.19,Pass,
+193,Hotstar,05.07.19,Fail,DEV|plt.show()|displaying graph without plotting it|plotting
+36,ACM,07.21.19,Pass,
+198,ACM,09.01.19,Pass,
+10,Hotstar,05.17.19,Pass,
+148,ACM,08.24.19,Fail,DEV|plt.show()|plt:undefined name|displaying
+68,Hotstar,07.13.19,Pass,
+56,Netflix,08.10.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+176,Zomato,09.26.19,Fail,PROD|import numpy as np|numpy: Package not found|importing
+91,TechCrunch,04.25.19,Fail,STG|for i in Age|list index out of range|looping
+48,ACM,04.24.19,Pass,
+106,Facebook,08.15.19,Fail,UAT|import pandasa as pd|pandas: Package not found|importing
+153,Hotstar,07.30.19,Fail,STG|for i in Age|list index out of range|looping
+144,Zomato,07.11.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+166,UberEats,07.06.19,Fail,"DEV|print(""a[10]"")|No varible named a|retrive data"
+117,Guardian,09.05.19,Fail,"DEV|plt.plot(x,y)|x,y : undefined variables|plotting"
+192,Facebook,05.22.19,Fail,"DEV|print(""a[10]"")|No varible named a|retrive data"
+65,UberEats,04.19.19,Pass,
+102,Instagram,07.03.19,Fail,UAT|import pandasa as pd|pandasa: Package not found|importing
+79,Instagram,06.18.19,Pass,
+129,UberEats,07.08.19,Pass,
+94,TechCrunch,08.16.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+104,Hotstar,08.08.19,Fail,PROD|import seaborn as sns|seaborn: Package not found|Coloring
+160,Hotstar,04.04.19,Pass,
+31,ACM,09.29.19,Pass,
+49,Guardian,09.21.19,Pass,
+159,Netflix,08.21.19,Pass,
+78,ACM,05.22.19,Pass,
+30,Instagram,08.30.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+14,Instagram,06.22.19,Pass,
+133,Netflix,05.18.19,Fail,"DEV|for val in ""string"": |val : undefined variable|iteration"
+128,Facebook,05.16.19,Pass,
+95,ACM,05.10.19,Pass,
+168,UberEats,08.24.19,Pass,
+55,UberEats,08.15.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+68,UberEats,06.16.19,Pass,
+5,Uber,04.04.19,Fail,"DEV|plt.plot(x,y)|x,y : undefined variables|plotting"
+62,TechCrunch,06.16.19,Fail,"DEV|plt.plot(x,y)|x,y : undefined variables|plotting"
+179,Uber,06.28.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+142,ACM,08.18.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+19,Guardian,06.08.19,Fail,UAT|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise
+150,ACM,06.02.19,Fail,DEV|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data
+104,Zomato,08.08.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+87,Guardian,09.15.19,Pass,
+3,Instagram,07.27.19,Pass,
+40,Netflix,05.13.19,Pass,
+180,ACM,06.27.19,Pass,
+37,Facebook,05.16.19,Fail,STG|while var >! 0:  |invalid operator|validation
+62,Facebook,07.17.19,Pass,
+72,Instagram,04.30.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+4,TechCrunch,07.28.19,Fail,UAT|import pandasa as pd|pandasa: Package not found|importing
+47,UberEats,07.14.19,Pass,
+137,Guardian,08.04.19,Pass,
+49,Netflix,04.02.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+38,Hotstar,07.18.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+32,Uber,04.06.19,Fail,STG|while var >! 0:  |invalid operator|validation
+147,TechCrunch,05.04.19,Fail,"DEV| print ""Ok""|Missing parentheses in call to 'print'| printing"
+41,Hotstar,06.13.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+150,ACM,06.14.19,Pass,
+194,TechCrunch,07.18.19,Fail,PROD|np.arange(8)|numpy array out of range|looping
+117,Zomato,05.05.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+67,Hotstar,08.25.19,Pass,
+157,Guardian,04.03.19,Pass,
+97,TechCrunch,06.04.19,Fail,"UAT|return func(*args, **kw)|InterruptedError|Handle Interrupt Error"
+132,ACM,06.17.19,Fail,PROD|Not compatible with IOS 13|Update not found|Updating
+158,Guardian,07.31.19,Pass,
+31,Hotstar,04.14.19,Pass,
+68,Facebook,07.27.19,Fail,DEV|plt.show()|plt:undefined name|displaying
+58,Guardian,05.20.19,Pass,
+99,Guardian,05.16.19,Fail,PROD|import numpy as np|numpy: Package not found|importing
+101,UberEats,05.06.19,Pass,
+199,Zomato,08.11.19,Pass,
+16,ACM,08.05.19,Pass,
+45,Instagram,05.17.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+143,UberEats,04.27.19,Pass,
+172,ACM,04.26.19,Fail,STG|for x in range(10)|List out of index [15]|looping
+166,Facebook,06.08.19,Fail,UAT|import pandas as pd|package not found|importing
+1,Guardian,09.08.19,Pass,
+111,Guardian,05.07.19,Pass,
+161,Hotstar,09.09.19,Pass,
+42,Guardian,08.15.19,Fail,DEV|plt.show()|plt:undefined name|displaying
+189,Guardian,07.09.19,Pass,
+52,Facebook,08.11.19,Pass,
+87,Instagram,06.21.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+185,Zomato,05.01.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+73,Zomato,09.28.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+167,TechCrunch,08.14.19,Pass,
+168,Instagram,04.06.19,Fail,"DEV| print ""Ok""|Missing parentheses in call to 'print'| printing"
+183,Netflix,09.15.19,Fail,UAT|form.submit(name[0])|Array index out of bounds|Need to specify name
+22,Zomato,06.29.19,Pass,
+105,Hotstar,09.10.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+97,UberEats,09.27.19,Pass,
+101,TechCrunch,08.08.19,Fail,"DEV| print ""Ok""|Missing parentheses in call to 'print'| printing"
+132,Uber,09.12.19,Pass,
+74,Netflix,06.01.19,Pass,
+139,Netflix,09.22.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+114,Instagram,07.04.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+81,Instagram,07.22.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+65,UberEats,05.21.19,Fail,"STG|print(data[""Weight""].std())|column doesnot exist|standard variations"
+197,ACM,04.16.19,Pass,
+44,TechCrunch,08.15.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+116,ACM,05.11.19,Pass,
+96,UberEats,05.13.19,Pass,
+159,Uber,05.05.19,Pass,
+150,UberEats,05.01.19,Pass,
+62,Guardian,05.23.19,Pass,
+151,ACM,09.23.19,Pass,
+81,Instagram,08.12.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+116,Zomato,07.22.19,Fail,PROD|import numpy as np|numpy: Package not found|importing
+69,TechCrunch,09.23.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+174,Uber,08.28.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+23,Netflix,07.23.19,Fail,DEV|print(df.columns)|df: undefined dataframe|retrive data
+39,Uber,07.13.19,Pass,
+40,Facebook,09.22.19,Fail,UAT|import matplotlib as plt|matplotlib: Package not found|importing
+72,Uber,07.04.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+155,Zomato,05.04.19,Fail,UAT|fun(20)|arguments undefined in function|pass by value 
+176,Zomato,08.02.19,Pass,
+175,Netflix,04.30.19,Fail,UAT|import pandas as pd|package not found|importing
+57,Zomato,06.02.19,Pass,
+198,Hotstar,09.06.19,Fail,UAT|import pandasa as pd|pandas: Package not found|importing
+187,Uber,08.30.19,Pass,
+20,Facebook,08.21.19,Fail,UAT|form.submit(name[0])|Array index out of bounds|Need to specify name
+19,Facebook,04.05.19,Pass,
+68,Instagram,09.18.19,Fail,"DEV|print(""a[10]"")|No varible named a|retrive data"
+164,Guardian,06.30.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+10,Netflix,08.01.19,Pass,
+16,Zomato,07.20.19,Pass,
+191,Netflix,08.05.19,Pass,
+96,Netflix,04.15.19,Pass,
+169,Zomato,06.21.19,Pass,
+73,Zomato,06.26.19,Pass,
+125,Netflix,05.31.19,Fail,UAT|import pandas as pd|package not found|importing
+156,Instagram,08.04.19,Fail,"DEV|print(""a[10]"")|No varible named a|retrive data"
+154,UberEats,05.05.19,Pass,
+173,Guardian,04.02.19,Fail,"STG|for i,j in range()|range expected 1 arguments|parsing"
+92,UberEats,07.08.19,Fail,"STG|for i,j in range()|range expected 1 arguments|parsing"
+57,Hotstar,07.24.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+17,Hotstar,07.11.19,Pass,
+152,Facebook,04.16.19,Fail,UAT|import pandasa as pd|pandasa: Package not found|importing
+200,Instagram,05.21.19,Fail,UAT|import pandasa as pd|pandas: Package not found|importing
+5,Netflix,07.27.19,Pass,
+11,Hotstar,08.15.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+90,Guardian,07.07.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+76,Uber,04.29.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+90,Guardian,04.19.19,Pass,
+10,Facebook,09.13.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+4,UberEats,08.09.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+9,Netflix,04.04.19,Pass,
+144,ACM,08.23.19,Pass,
+106,Netflix,07.08.19,Pass,
+46,Facebook,04.29.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+28,Facebook,09.11.19,Fail,PROD|Not compatible with IOS 13|Update not found|Updating
+124,Hotstar,04.22.19,Pass,
+160,UberEats,07.29.19,Fail,"DEV|plt.plot(x,y)|x,y : undefined variables|plotting"
+34,Guardian,07.29.19,Pass,
+107,Instagram,04.29.19,Pass,
+173,Netflix,04.08.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+80,Zomato,04.18.19,Fail,UAT|import pandas as pd|package not found|importing
+182,Netflix,04.10.19,Fail,PROD|import seaborn as sns|seaborn: Package not found|Coloring
+35,ACM,05.31.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+89,ACM,08.29.19,Fail,DEV|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming
+51,ACM,08.08.19,Fail,DEV|plt.show()|displaying graph without plotting it|plotting
+164,Uber,05.07.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+127,TechCrunch,05.22.19,Fail,PROD|Not compatible with IOS 13|Update not found|Updating
+60,Facebook,08.26.19,Pass,
+25,ACM,09.27.19,Pass,
+146,Zomato,08.21.19,Pass,
+122,Guardian,05.30.19,Fail,UAT|import pandas as pd|package not found|importing
+37,Hotstar,07.05.19,Fail,DEV|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data
+95,UberEats,05.16.19,Fail,UAT|form.submit(name[0])|Array index out of bounds|Need to specify name
+25,Guardian,08.31.19,Fail,UAT|import pandasa as pd|pandasa: Package not found|importing
+77,UberEats,07.01.19,Pass,
+175,ACM,05.19.19,Pass,
+119,Facebook,04.21.19,Fail,DEV|print(df.columns)|df: undefined dataframe|retrive data
+89,Zomato,05.25.19,Pass,
+27,Hotstar,07.31.19,Pass,
+1,Netflix,04.03.19,Pass,
+54,Instagram,07.14.19,Fail,PROD|print(('python')*a)|a: variable undefined|retrieve data
+6,TechCrunch,08.24.19,Fail,"STG|for i,j in range()|range expected 1 arguments|parsing"
+49,Netflix,04.12.19,Pass,
+132,Guardian,05.29.19,Pass,
+84,Instagram,04.07.19,Pass,
+38,Zomato,07.26.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+91,TechCrunch,06.20.19,Pass,
+88,Uber,05.23.19,Pass,
+101,Hotstar,04.14.19,Pass,
+46,UberEats,08.31.19,Pass,
+14,Uber,06.07.19,Pass,
+130,Hotstar,04.01.19,Fail,UAT|import pandas as pd|package not found|importing
+153,Uber,09.07.19,Pass,
+82,TechCrunch,07.24.19,Fail,STG|while var >! 0:  |invalid operator|validation
+166,UberEats,04.25.19,Pass,
+83,Facebook,07.05.19,Fail,UAT|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise
+151,Facebook,09.05.19,Fail,"DEV|print(""a[10]"")|No varible named a|retrive data"
+167,Zomato,08.31.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+39,UberEats,05.12.19,Pass,
+110,Guardian,04.30.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+195,Instagram,05.14.19,Pass,
+124,Uber,07.30.19,Pass,
+52,Instagram,07.09.19,Pass,
+90,TechCrunch,09.24.19,Fail,STG|while var >! 0:  |invalid operator|validation
+168,Guardian,06.23.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+79,UberEats,07.03.19,Pass,
+21,Guardian,08.22.19,Pass,
+19,TechCrunch,07.25.19,Pass,
+154,Zomato,04.26.19,Fail,DEV|print(df.columns)|df: undefined dataframe|retrive data
+128,Hotstar,05.15.19,Pass,
+141,TechCrunch,04.16.19,Pass,
+150,Hotstar,04.27.19,Pass,
+106,Hotstar,06.16.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+178,UberEats,08.30.19,Fail,DEV|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming
+120,Instagram,08.17.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+137,Instagram,09.18.19,Pass,
+171,Facebook,09.23.19,Fail,"UAT|return func(*args, **kw)|InterruptedError|Handle Interrupt Error"
+58,TechCrunch,08.23.19,Fail,UAT|import pandasa as pd|pandas: Package not found|importing
+24,Hotstar,09.04.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+193,UberEats,05.03.19,Fail,UAT|import matplotlib as plt|matplotlib: Package not found|importing
+85,Uber,08.25.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+111,UberEats,05.03.19,Pass,
+168,Uber,06.26.19,Pass,
+96,Netflix,05.29.19,Fail,"DEV| print ""Ok""|Missing parentheses in call to 'print'| printing"
+74,UberEats,09.06.19,Pass,
+189,Uber,07.30.19,Pass,
+45,TechCrunch,05.10.19,Pass,
+158,TechCrunch,07.02.19,Fail,STG|for i in Age|list index out of range|looping
+147,Netflix,09.28.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+180,Netflix,04.19.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+139,Zomato,09.11.19,Pass,
+11,TechCrunch,06.04.19,Pass,
+148,Facebook,06.21.19,Pass,
+100,UberEats,04.08.19,Pass,
+127,Guardian,05.24.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+4,Guardian,04.14.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+51,Instagram,04.21.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+173,ACM,04.23.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+174,Netflix,08.07.19,Fail,STG|for i in Age|list index out of range|looping
+94,UberEats,09.16.19,Fail,PROD|print(('python')*a)|a: variable undefined|retrieve data
+104,TechCrunch,07.03.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+54,Zomato,06.22.19,Pass,
+134,Instagram,06.06.19,Pass,
+51,Hotstar,07.03.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+168,ACM,06.01.19,Fail,PROD|print(('python')*a)|a: variable undefined|retrieve data
+38,UberEats,09.18.19,Pass,
+83,Uber,06.11.19,Fail,PROD|import seaborn as sns|seaborn: Package not found|Coloring
+187,ACM,09.17.19,Fail,"UAT|return func(*args, **kw)|InterruptedError|Handle Interrupt Error"
+11,Zomato,09.09.19,Pass,
+189,Zomato,06.04.19,Pass,
+102,Hotstar,06.01.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+194,Netflix,09.15.19,Pass,
+91,Instagram,07.27.19,Pass,
+190,UberEats,06.13.19,Pass,
+2,ACM,07.21.19,Pass,
+146,Instagram,09.07.19,Pass,
+127,Facebook,09.28.19,Pass,
+199,Zomato,06.07.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+5,Guardian,09.14.19,Pass,
+30,Instagram,06.13.19,Fail,STG|for i in Age|list index out of range|looping
+43,ACM,05.30.19,Pass,
+119,UberEats,08.26.19,Pass,
+136,Netflix,07.06.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+145,Guardian,08.10.19,Pass,
+42,Zomato,07.03.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+158,Netflix,09.12.19,Pass,
+54,ACM,08.10.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+61,Facebook,09.11.19,Pass,
+196,UberEats,08.31.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+161,Netflix,09.19.19,Pass,
+32,Facebook,06.06.19,Pass,
+189,TechCrunch,09.10.19,Pass,
+134,Netflix,04.12.19,Pass,
+144,TechCrunch,06.21.19,Pass,
+101,Hotstar,04.19.19,Fail,PROD|Not compatible with IOS 13|Update not found|Updating
+184,Hotstar,07.21.19,Pass,
+132,ACM,05.13.19,Pass,
+143,ACM,05.26.19,Fail,PROD|print(('python')*a)|a: variable undefined|retrieve data
+173,UberEats,04.16.19,Pass,
+25,Guardian,05.17.19,Pass,
+23,Hotstar,08.28.19,Fail,UAT|import matplotlib as plt|matplotlib: Package not found|importing
+23,Guardian,08.26.19,Pass,
+78,Guardian,08.09.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+73,Instagram,05.29.19,Fail,PROD|Not compatible with IOS 13|Update not found|Updating
+6,Instagram,09.09.19,Pass,
+145,Zomato,05.25.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+171,Guardian,06.21.19,Fail,UAT|import pandasa as pd|pandasa: Package not found|importing
+136,Zomato,05.02.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+17,Uber,05.29.19,Fail,DEV|plt.show()|plt:undefined name|displaying
+122,ACM,04.15.19,Fail,UAT|form.submit(name[0])|Array index out of bounds|Need to specify name
+161,Instagram,08.22.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+152,Guardian,05.02.19,Pass,
+95,Instagram,08.20.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+90,Zomato,06.20.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+167,Facebook,05.20.19,Fail,UAT|import pandasa as pd|pandas: Package not found|importing
+20,ACM,08.21.19,Pass,
+135,UberEats,07.21.19,Pass,
+118,Hotstar,06.01.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+121,Uber,07.19.19,Pass,
+1,Instagram,08.18.19,Pass,
+189,Guardian,05.29.19,Pass,
+29,Facebook,07.31.19,Pass,
+57,TechCrunch,09.17.19,Fail,UAT|import pandas as pd|package not found|importing
+188,TechCrunch,04.27.19,Pass,
+145,Zomato,04.02.19,Pass,
+61,UberEats,05.06.19,Pass,
+82,Uber,09.25.19,Pass,
+49,TechCrunch,05.28.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+153,Instagram,05.16.19,Pass,
+92,Netflix,07.11.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+184,Instagram,09.25.19,Fail,STG|while var >! 0:  |invalid operator|validation
+91,ACM,08.01.19,Pass,
+106,UberEats,06.25.19,Pass,
+26,Netflix,07.25.19,Pass,
+107,Guardian,05.16.19,Fail,STG|for i in Age|list index out of range|looping
+106,Facebook,08.04.19,Fail,UAT|import pandas as pd|package not found|importing
+190,Zomato,08.29.19,Fail,UAT|import pandas as pd|package not found|importing
+37,TechCrunch,06.08.19,Fail,UAT|form.submit(name[0])|Array index out of bounds|Need to specify name
+103,Hotstar,06.05.19,Pass,
+7,Netflix,04.10.19,Fail,PROD|import seaborn as sns|seaborn: Package not found|Coloring
+189,Guardian,09.17.19,Pass,
+168,TechCrunch,07.12.19,Fail,PROD|import seaborn as sns|seaborn: Package not found|Coloring
+169,Facebook,04.21.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+199,Facebook,07.21.19,Pass,
+145,ACM,06.30.19,Pass,
+120,Zomato,08.19.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+110,ACM,06.03.19,Fail,DEV|plt.show()|plt:undefined name|displaying
+133,Instagram,09.27.19,Pass,
+119,Guardian,09.04.19,Fail,"STG|for i,j in range()|range expected 1 arguments|parsing"
+22,Guardian,05.07.19,Pass,
+116,Instagram,05.01.19,Pass,
+184,Instagram,09.05.19,Pass,
+20,Zomato,08.27.19,Fail,UAT|import pandas as pd|package not found|importing
+91,Uber,05.18.19,Fail,"STG|for i,j in range()|range expected 1 arguments|parsing"
+64,Uber,07.10.19,Pass,
+146,Zomato,07.31.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+168,TechCrunch,08.24.19,Pass,
+56,ACM,08.18.19,Fail,"UAT|return func(*args, **kw)|InterruptedError|Handle Interrupt Error"
+174,TechCrunch,09.06.19,Fail,STG|while var >! 0:  |invalid operator|validation
+198,ACM,09.06.19,Pass,
+60,ACM,04.04.19,Pass,
+73,Netflix,06.01.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+191,Facebook,08.26.19,Pass,
+78,Facebook,06.23.19,Fail,UAT|fun(20)|arguments undefined in function|pass by value 
+177,Hotstar,05.21.19,Fail,DEV|plt.show()|displaying graph without plotting it|plotting
+161,TechCrunch,04.30.19,Pass,
+72,Netflix,06.15.19,Fail,UAT|import pandasa as pd|pandas: Package not found|importing
+53,TechCrunch,07.02.19,Fail,PROD|import numpy as np|numpy: Package not found|importing
+55,ACM,09.04.19,Pass,
+120,ACM,06.01.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+172,Guardian,06.19.19,Pass,
+192,Zomato,09.13.19,Pass,
+99,UberEats,05.07.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+57,ACM,09.26.19,Fail,PROD|import numpy as np|numpy: Package not found|importing
+33,UberEats,05.25.19,Fail,PROD|import numpy as np|numpy: Package not found|importing
+127,TechCrunch,09.20.19,Pass,
+188,Uber,05.15.19,Fail,DEV|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming
+80,Guardian,08.17.19,Pass,
+158,Uber,07.04.19,Fail,DEV|plt.show()|displaying graph without plotting it|plotting
+148,Facebook,08.05.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+85,TechCrunch,09.20.19,Fail,UAT|import pandas as pd|package not found|importing
+89,TechCrunch,07.09.19,Fail,"STG|for i,j in range()|range expected 1 arguments|parsing"
+164,Netflix,04.11.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+158,Netflix,05.15.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+20,TechCrunch,05.28.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+198,ACM,08.25.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+30,ACM,07.27.19,Pass,
+65,ACM,04.03.19,Pass,
+177,Hotstar,08.26.19,Pass,
+99,Guardian,05.18.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+2,ACM,06.23.19,Pass,
+186,Guardian,06.11.19,Fail,"DEV|print(""a[10]"")|No varible named a|retrive data"
+35,Netflix,06.27.19,Fail,PROD|np.arange(8)|numpy array out of range|looping
+65,Uber,04.24.19,Pass,
+146,Hotstar,04.04.19,Fail,"STG|print(data[""Weight""].std())|column doesnot exist|standard variations"
+28,Guardian,08.25.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+114,Uber,04.21.19,Fail,UAT|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise
+65,UberEats,04.07.19,Pass,
+30,Guardian,04.06.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+147,Uber,06.10.19,Pass,
+23,Netflix,08.15.19,Fail,"DEV|plt.plot(x,y)|x,y : undefined variables|plotting"
+159,TechCrunch,05.23.19,Fail,UAT|import pandas as pd|package not found|importing
+89,Zomato,09.05.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+11,Guardian,06.15.19,Fail,UAT|fun(20)|arguments undefined in function|pass by value 
+176,Hotstar,04.03.19,Fail,"STG|for i,j in range()|range expected 1 arguments|parsing"
+37,UberEats,08.14.19,Pass,
+15,Hotstar,05.24.19,Pass,
+184,Facebook,09.16.19,Pass,
+28,Netflix,04.30.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+178,Instagram,05.28.19,Fail,PROD|Not compatible with IOS 13|Update not found|Updating
+109,Instagram,09.10.19,Fail,DEV|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data
+92,UberEats,06.15.19,Pass,
+159,Uber,09.06.19,Fail,UAT|fun(20)|arguments undefined in function|pass by value 
+104,Guardian,09.07.19,Pass,
+63,Instagram,07.13.19,Pass,
+77,Instagram,04.06.19,Pass,
+122,Facebook,05.23.19,Fail,PROD|Not compatible with IOS 13|Update not found|Updating
+127,Guardian,05.04.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+178,UberEats,08.20.19,Pass,
+39,Facebook,07.02.19,Pass,
+36,TechCrunch,04.29.19,Pass,
+10,ACM,07.06.19,Fail,"DEV| print ""Ok""|Missing parentheses in call to 'print'| printing"
+181,Netflix,08.03.19,Pass,
+124,Instagram,09.03.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+25,TechCrunch,08.24.19,Pass,
+167,Uber,09.01.19,Fail,STG|for i in Age|list index out of range|looping
+178,Hotstar,05.17.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+78,Guardian,04.09.19,Fail,STG|while var >! 0:  |invalid operator|validation
+105,ACM,05.20.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+173,Facebook,08.04.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+3,TechCrunch,04.14.19,Pass,
+167,Netflix,06.01.19,Pass,
+187,Netflix,04.07.19,Pass,
+182,Uber,06.01.19,Pass,
+22,Guardian,09.16.19,Pass,
+16,Facebook,08.13.19,Pass,
+51,Netflix,09.25.19,Fail,"DEV|print(""a[10]"")|No varible named a|retrive data"
+132,Uber,06.01.19,Pass,
+157,Netflix,09.09.19,Fail,"DEV|plt.plot(x,y)|x,y : undefined variables|plotting"
+16,Hotstar,09.30.19,Pass,
+192,Facebook,09.10.19,Pass,
+53,Guardian,06.11.19,Fail,UAT|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise
+115,ACM,08.06.19,Fail,"DEV| print ""Ok""|Missing parentheses in call to 'print'| printing"
+56,ACM,04.16.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+157,Instagram,04.03.19,Pass,
+143,Uber,08.24.19,Fail,PROD|Not compatible with IOS 13|Update not found|Updating
+123,Instagram,08.05.19,Pass,
+58,Facebook,05.13.19,Fail,"DEV|for val in ""string"": |val : undefined variable|iteration"
+84,Zomato,05.04.19,Fail,"STG|for i,j in range()|range expected 1 arguments|parsing"
+2,Uber,06.03.19,Pass,
+116,Uber,04.12.19,Pass,
+33,ACM,08.12.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+196,Hotstar,07.20.19,Pass,
+164,TechCrunch,04.19.19,Pass,
+4,Guardian,09.26.19,Pass,
+7,Netflix,07.30.19,Pass,
+96,Uber,07.27.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+34,ACM,04.13.19,Fail,UAT|import pandasa as pd|pandas: Package not found|importing
+56,Hotstar,05.11.19,Pass,
+87,Instagram,09.21.19,Fail,UAT|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise
+163,Facebook,04.08.19,Fail,DEV|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data
+154,Guardian,05.17.19,Fail,PROD|import seaborn as sns|seaborn: Package not found|Coloring
+24,Instagram,07.26.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+113,UberEats,07.15.19,Pass,
+193,Hotstar,04.25.19,Fail,PROD|import seaborn as sns|seaborn: Package not found|Coloring
+169,Zomato,06.24.19,Pass,
+82,Netflix,09.22.19,Fail,"UAT|return func(*args, **kw)|InterruptedError|Handle Interrupt Error"
+159,UberEats,04.04.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+88,Uber,05.01.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+71,Netflix,09.27.19,Pass,
+112,ACM,08.11.19,Pass,
+126,Zomato,04.01.19,Fail,STG|for x in range(10)|List out of index [15]|looping
+95,Zomato,08.14.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+170,ACM,06.07.19,Pass,
+80,Guardian,08.02.19,Pass,
+105,Hotstar,08.18.19,Pass,
+34,UberEats,04.23.19,Pass,
+55,UberEats,09.24.19,Pass,
+27,ACM,09.09.19,Pass,
+46,Facebook,09.22.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+25,Instagram,07.02.19,Fail,STG|while var >! 0:  |invalid operator|validation
+72,TechCrunch,07.31.19,Pass,
+124,Facebook,05.29.19,Fail,"STG|for i,j in range()|range expected 1 arguments|parsing"
+180,Hotstar,08.17.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+104,UberEats,07.06.19,Pass,
+44,Uber,09.05.19,Pass,
+196,Netflix,07.31.19,Pass,
+2,UberEats,07.04.19,Fail,PROD|np.arange(8)|numpy array out of range|looping
+177,TechCrunch,06.21.19,Pass,
+106,Uber,08.25.19,Pass,
+57,ACM,07.27.19,Fail,DEV|plt.show()|displaying graph without plotting it|plotting
+9,Netflix,09.03.19,Fail,"STG|print(data[""Weight""].std())|column doesnot exist|standard variations"
+193,Zomato,04.11.19,Pass,
+51,Uber,07.24.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+9,Zomato,04.16.19,Fail,UAT|import matplotlib as plt|matplotlib: Package not found|importing
+139,Zomato,08.18.19,Pass,
+116,Instagram,07.30.19,Fail,"DEV|print(""a[10]"")|No varible named a|retrive data"
+166,Guardian,05.02.19,Pass,
+131,Guardian,04.03.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+106,Zomato,06.17.19,Fail,STG|for x in range(10)|List out of index [15]|looping
+143,Zomato,06.28.19,Pass,
+126,TechCrunch,09.14.19,Fail,UAT|fun(20)|arguments undefined in function|pass by value 
+154,Instagram,08.27.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+80,UberEats,09.26.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+139,Instagram,06.28.19,Pass,
+168,ACM,04.09.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+161,Zomato,05.24.19,Pass,
+19,Instagram,07.20.19,Fail,DEV|print(df.columns)|df: undefined dataframe|retrive data
+148,TechCrunch,08.16.19,Pass,
+79,Facebook,05.28.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+5,Hotstar,04.13.19,Pass,
+137,Guardian,07.01.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+54,Facebook,09.16.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+48,ACM,09.04.19,Pass,
+165,Hotstar,05.29.19,Fail,PROD|np.arange(8)|numpy array out of range|looping
+35,Guardian,06.23.19,Pass,
+80,Uber,07.24.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+39,Guardian,05.24.19,Pass,
+17,Instagram,09.03.19,Pass,
+31,Uber,08.02.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+141,UberEats,06.15.19,Fail,UAT|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise
+54,UberEats,06.02.19,Pass,
+170,Instagram,08.13.19,Fail,PROD|import numpy as np|numpy: Package not found|importing
+30,UberEats,08.23.19,Pass,
+128,TechCrunch,09.27.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+23,Netflix,08.01.19,Fail,UAT|import pandasa as pd|pandas: Package not found|importing
+68,Hotstar,04.06.19,Pass,
+55,Hotstar,06.27.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+159,Uber,08.05.19,Fail,UAT|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise
+162,ACM,09.08.19,Pass,
+133,Uber,04.11.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+21,TechCrunch,08.03.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+68,Netflix,08.22.19,Pass,
+183,Hotstar,07.23.19,Fail,PROD|import seaborn as sns|seaborn: Package not found|Coloring
+20,Facebook,07.11.19,Pass,
+140,ACM,05.09.19,Pass,
+52,UberEats,07.04.19,Fail,PROD|import seaborn as sns|seaborn: Package not found|Coloring
+132,Facebook,09.30.19,Pass,
+25,Zomato,09.18.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+7,Instagram,05.21.19,Pass,
+90,Guardian,05.18.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+141,UberEats,09.22.19,Fail,"STG|print(data[""Weight""].std())|column doesnot exist|standard variations"
+13,Instagram,04.14.19,Pass,
+133,Facebook,09.12.19,Pass,
+194,Hotstar,05.20.19,Fail,UAT|import matplotlib as plt|matplotlib: Package not found|importing
+70,Instagram,09.23.19,Fail,PROD|import numpy as np|numpy: Package not found|importing
+3,Zomato,04.18.19,Pass,
+42,Hotstar,06.04.19,Fail,UAT|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise
+22,ACM,08.24.19,Pass,
+48,Uber,06.09.19,Pass,
+53,Guardian,08.06.19,Fail,PROD|print(('python')*a)|a: variable undefined|retrieve data
+189,Hotstar,07.13.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+167,ACM,05.04.19,Pass,
+125,Netflix,08.13.19,Pass,
+154,UberEats,08.22.19,Pass,
+176,UberEats,07.11.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+38,ACM,04.03.19,Pass,
+181,Zomato,09.24.19,Fail,PROD|print(('python')*a)|a: variable undefined|retrieve data
+143,Netflix,06.19.19,Pass,
+61,Facebook,05.04.19,Fail,PROD|print(('python')*a)|a: variable undefined|retrieve data
+144,TechCrunch,08.29.19,Pass,
+168,UberEats,06.15.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+155,Guardian,09.17.19,Pass,
+62,Netflix,05.11.19,Fail,DEV|plt.show()|plt:undefined name|displaying
+17,ACM,04.18.19,Fail,UAT|import matplotlib as plt|matplotlib: Package not found|importing
+31,Facebook,06.27.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+108,Guardian,05.10.19,Pass,
+106,Facebook,08.16.19,Fail,DEV|print(df.columns)|df: undefined dataframe|retrive data
+124,Facebook,06.08.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+70,Instagram,07.27.19,Pass,
+49,Guardian,08.30.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+109,UberEats,08.04.19,Fail,PROD|import numpy as np|numpy: Package not found|importing
+8,Facebook,07.08.19,Pass,
+105,Netflix,08.18.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+195,Instagram,07.18.19,Fail,"STG|print(data[""Weight""].std())|column doesnot exist|standard variations"
+161,TechCrunch,09.21.19,Pass,
+192,Zomato,05.31.19,Pass,
+66,TechCrunch,09.19.19,Pass,
+199,Guardian,07.22.19,Fail,"STG|for i,j in range()|range expected 1 arguments|parsing"
+154,UberEats,04.04.19,Fail,"UAT|return func(*args, **kw)|InterruptedError|Handle Interrupt Error"
+122,Uber,04.14.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+9,Uber,05.03.19,Pass,
+35,Facebook,07.30.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+192,UberEats,09.01.19,Pass,
+32,ACM,08.26.19,Fail,"DEV|for val in ""string"": |val : undefined variable|iteration"
+57,Zomato,08.23.19,Pass,
+10,Zomato,06.12.19,Pass,
+47,ACM,09.22.19,Fail,"DEV|print(""a[10]"")|No varible named a|retrive data"
+178,Uber,06.11.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+184,TechCrunch,07.14.19,Pass,
+132,Guardian,05.12.19,Pass,
+95,Guardian,05.14.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+188,Guardian,09.09.19,Fail,DEV|print(df.columns)|df: undefined dataframe|retrive data
+91,UberEats,04.21.19,Pass,
+192,Hotstar,09.28.19,Pass,
+168,TechCrunch,08.18.19,Pass,
+183,Netflix,05.29.19,Pass,
+55,Zomato,05.17.19,Pass,
+84,Guardian,07.21.19,Pass,
+98,Guardian,04.01.19,Pass,
+168,TechCrunch,06.18.19,Pass,
+4,TechCrunch,06.05.19,Pass,
+120,ACM,04.23.19,Pass,
+70,Facebook,08.15.19,Pass,
+103,Uber,09.29.19,Fail,UAT|import pandasa as pd|pandas: Package not found|importing
+89,Uber,08.23.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+41,Uber,09.20.19,Fail,DEV|plt.show()|plt:undefined name|displaying
+125,ACM,08.01.19,Pass,
+194,Uber,06.20.19,Pass,
+21,Netflix,07.29.19,Fail,PROD|print(('python')*a)|a: variable undefined|retrieve data
+33,Facebook,04.25.19,Fail,UAT|import pandasa as pd|pandas: Package not found|importing
+195,Instagram,06.21.19,Fail,PROD|import seaborn as sns|seaborn: Package not found|Coloring
+78,TechCrunch,09.06.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+89,Hotstar,09.19.19,Pass,
+179,Hotstar,06.17.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+113,ACM,07.06.19,Fail,PROD|np.arange(8)|numpy array out of range|looping
+42,UberEats,07.17.19,Pass,
+83,UberEats,07.24.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+196,Zomato,09.23.19,Pass,
+141,Facebook,08.02.19,Pass,
+104,Instagram,05.22.19,Pass,
+185,UberEats,05.03.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+46,Zomato,06.03.19,Pass,
+109,Uber,05.31.19,Pass,
+85,Zomato,05.20.19,Fail,PROD|np.arange(8)|numpy array out of range|looping
+174,Netflix,09.19.19,Fail,STG|for x in range(10)|List out of index [15]|looping
+182,UberEats,08.29.19,Pass,
+165,Netflix,06.22.19,Pass,
+95,Netflix,05.25.19,Pass,
+194,UberEats,06.08.19,Pass,
+66,ACM,05.12.19,Pass,
+72,TechCrunch,06.13.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+56,Instagram,04.15.19,Pass,
+61,Hotstar,05.11.19,Fail,"DEV|for val in ""string"": |val : undefined variable|iteration"
+65,Uber,05.18.19,Fail,DEV|plt.show()|plt:undefined name|displaying
+114,UberEats,06.21.19,Pass,
+64,UberEats,07.03.19,Pass,
+56,Guardian,06.13.19,Fail,STG|for i in Age|list index out of range|looping
+169,Instagram,09.09.19,Fail,"STG|for i,j in range()|range expected 1 arguments|parsing"
+52,Uber,08.17.19,Pass,
+124,ACM,06.08.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+188,Netflix,06.12.19,Pass,
+199,UberEats,05.06.19,Pass,
+66,Netflix,06.06.19,Fail,"STG|for i,j in range()|range expected 1 arguments|parsing"
+1,Facebook,08.06.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+89,Instagram,09.06.19,Pass,
+61,Hotstar,08.07.19,Pass,
+8,Hotstar,04.10.19,Fail,PROD|np.arange(8)|numpy array out of range|looping
+62,Uber,09.29.19,Pass,
+6,Hotstar,09.17.19,Pass,
+43,Guardian,07.11.19,Fail,DEV|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data
+37,Zomato,05.24.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+76,UberEats,08.12.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+176,Netflix,06.22.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+21,Uber,04.10.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+200,UberEats,04.09.19,Pass,
+134,ACM,09.23.19,Pass,
+184,Zomato,09.20.19,Fail,DEV|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming
+182,Guardian,07.22.19,Pass,
+200,Facebook,07.06.19,Pass,
+185,Uber,09.21.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+8,Zomato,05.19.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+86,Hotstar,07.27.19,Pass,
+200,Instagram,06.09.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+78,Uber,07.23.19,Pass,
+1,Guardian,04.04.19,Fail,STG|for x in range(10)|List out of index [15]|looping
+181,Hotstar,06.15.19,Fail,UAT|fun(20)|arguments undefined in function|pass by value 
+110,Hotstar,04.01.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+60,Uber,07.07.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+192,Uber,04.30.19,Pass,
+77,ACM,04.18.19,Fail,UAT|fun(20)|arguments undefined in function|pass by value 
+98,Guardian,08.05.19,Pass,
+66,UberEats,09.24.19,Fail,DEV|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming
+47,Netflix,05.17.19,Fail,"UAT|return func(*args, **kw)|InterruptedError|Handle Interrupt Error"
+52,Hotstar,09.05.19,Pass,
+62,Zomato,04.06.19,Fail,"DEV|print(""a[10]"")|No varible named a|retrive data"
+6,Guardian,08.08.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+58,Uber,06.27.19,Pass,
+151,Facebook,08.08.19,Pass,
+1,UberEats,09.13.19,Pass,
+32,Guardian,05.13.19,Fail,STG|for x in range(10)|List out of index [15]|looping
+133,Netflix,08.27.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+135,Facebook,07.10.19,Fail,PROD|import seaborn as sns|seaborn: Package not found|Coloring
+77,ACM,08.02.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+34,ACM,06.14.19,Pass,
+46,Hotstar,06.12.19,Pass,
+132,TechCrunch,08.05.19,Pass,
+73,ACM,05.14.19,Fail,UAT|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise
+24,UberEats,05.20.19,Pass,
+35,Zomato,08.10.19,Fail,DEV|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data
+86,Netflix,07.07.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+73,UberEats,07.16.19,Pass,
+89,Uber,09.10.19,Pass,
+60,TechCrunch,04.30.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+42,Facebook,07.06.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+159,Guardian,04.19.19,Pass,
+163,Hotstar,05.14.19,Pass,
+137,Facebook,05.30.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+14,Hotstar,09.18.19,Pass,
+43,Netflix,04.08.19,Pass,
+101,Hotstar,08.25.19,Fail,DEV|plt.show()|displaying graph without plotting it|plotting
+41,Guardian,08.01.19,Fail,"UAT|return func(*args, **kw)|InterruptedError|Handle Interrupt Error"
+136,Zomato,08.22.19,Pass,
+117,Hotstar,08.21.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+84,ACM,07.22.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+161,Netflix,08.29.19,Pass,
+168,Netflix,04.03.19,Fail,"DEV| print ""Ok""|Missing parentheses in call to 'print'| printing"
+94,Uber,07.07.19,Pass,
+30,Netflix,05.27.19,Pass,
+174,Hotstar,06.28.19,Pass,
+45,Facebook,04.09.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+4,Zomato,08.25.19,Fail,"DEV|for val in ""string"": |val : undefined variable|iteration"
+63,Uber,06.14.19,Fail,PROD|import numpy as np|numpy: Package not found|importing
+29,TechCrunch,08.25.19,Pass,
+51,Guardian,05.13.19,Fail,STG|for i in Age|list index out of range|looping
+156,Facebook,09.14.19,Pass,
+97,Uber,09.02.19,Pass,
+56,Hotstar,09.19.19,Fail,PROD|np.arange(8)|numpy array out of range|looping
+139,Guardian,08.22.19,Fail,"UAT|return func(*args, **kw)|InterruptedError|Handle Interrupt Error"
+191,Uber,08.28.19,Fail,PROD|Not compatible with IOS 13|Update not found|Updating
+28,TechCrunch,05.22.19,Pass,
+60,Facebook,07.26.19,Pass,
+15,Zomato,04.15.19,Pass,
+101,UberEats,05.18.19,Fail,UAT|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise
+160,Uber,06.02.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+165,Hotstar,07.29.19,Fail,DEV|plt.show()|plt:undefined name|displaying
+157,Facebook,08.23.19,Fail,UAT|import pandas as pd|package not found|importing
+188,Netflix,09.08.19,Pass,
+74,Uber,04.24.19,Pass,
+53,Guardian,04.17.19,Fail,UAT|import matplotlib as plt|matplotlib: Package not found|importing
+27,Facebook,06.23.19,Pass,
+28,Netflix,09.21.19,Pass,
+10,Facebook,05.29.19,Fail,UAT|import pandasa as pd|pandasa: Package not found|importing
+18,ACM,08.05.19,Pass,
+140,ACM,07.07.19,Fail,"DEV|for val in ""string"": |val : undefined variable|iteration"
+10,Zomato,08.10.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+10,Uber,05.29.19,Pass,
+67,UberEats,05.07.19,Pass,
+141,Zomato,08.11.19,Pass,
+34,ACM,04.20.19,Fail,PROD|print(('python')*a)|a: variable undefined|retrieve data
+177,Hotstar,09.13.19,Fail,"STG|print(data[""Weight""].std())|column doesnot exist|standard variations"
+93,Hotstar,04.30.19,Pass,
+105,UberEats,05.15.19,Pass,
+16,Facebook,07.12.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+103,UberEats,08.27.19,Pass,
+161,Zomato,05.06.19,Fail,STG|while var >! 0:  |invalid operator|validation
+35,ACM,08.18.19,Pass,
+69,Uber,09.24.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+161,Guardian,06.17.19,Fail,STG|for x in range(10)|List out of index [15]|looping
+193,Zomato,08.17.19,Fail,DEV|print(df.columns)|df: undefined dataframe|retrive data
+2,Netflix,09.27.19,Pass,
+37,Uber,05.29.19,Fail,PROD|np.arange(8)|numpy array out of range|looping
+87,Netflix,07.21.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+12,Zomato,05.25.19,Fail,STG|for x in range(10)|List out of index [15]|looping
+55,Instagram,06.30.19,Fail,UAT|import pandasa as pd|pandasa: Package not found|importing
+156,Uber,08.01.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+79,Zomato,06.16.19,Fail,UAT|form.submit(name[0])|Array index out of bounds|Need to specify name
+55,Instagram,09.09.19,Fail,UAT|import pandasa as pd|pandasa: Package not found|importing
+43,TechCrunch,04.14.19,Pass,
+200,TechCrunch,07.16.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+17,TechCrunch,04.20.19,Fail,STG|while var >! 0:  |invalid operator|validation
+80,UberEats,06.04.19,Fail,DEV|print(df.columns)|df: undefined dataframe|retrive data
+24,Facebook,04.18.19,Fail,STG|for x in range(10)|List out of index [15]|looping
+194,Hotstar,05.06.19,Fail,"DEV| print ""Ok""|Missing parentheses in call to 'print'| printing"
+53,ACM,04.30.19,Pass,
+111,Guardian,05.26.19,Pass,
+163,Zomato,04.28.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+81,Facebook,08.27.19,Pass,
+157,Facebook,09.25.19,Pass,
+31,Guardian,05.05.19,Fail,"STG|for i,j in range()|range expected 1 arguments|parsing"
+179,Facebook,05.20.19,Fail,PROD|print(('python')*a)|a: variable undefined|retrieve data
+64,Guardian,09.26.19,Pass,
+129,Zomato,07.09.19,Pass,
+152,Facebook,08.28.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+80,UberEats,05.13.19,Pass,
+19,Netflix,07.12.19,Pass,
+76,Facebook,07.05.19,Pass,
+140,UberEats,07.04.19,Fail,UAT|import pandasa as pd|pandas: Package not found|importing
+99,Netflix,07.19.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+140,TechCrunch,05.03.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+126,ACM,05.21.19,Fail,DEV|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data
+14,Facebook,04.08.19,Pass,
+111,ACM,05.04.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+12,Guardian,04.25.19,Pass,
+21,Zomato,07.29.19,Fail,PROD|np.arange(8)|numpy array out of range|looping
+67,Guardian,04.13.19,Pass,
+197,ACM,07.04.19,Fail,"DEV| print ""Ok""|Missing parentheses in call to 'print'| printing"
+86,TechCrunch,04.11.19,Pass,
+19,ACM,08.12.19,Pass,
+100,UberEats,09.25.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+102,Uber,06.04.19,Pass,
+113,Hotstar,05.11.19,Fail,DEV|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming
+111,TechCrunch,04.09.19,Pass,
+88,Zomato,07.18.19,Pass,
+85,Instagram,09.09.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+168,Hotstar,08.19.19,Fail,STG|for i in Age|list index out of range|looping
+70,Uber,04.02.19,Fail,UAT|form.submit(name[0])|Array index out of bounds|Need to specify name
+151,ACM,08.04.19,Fail,"DEV|plt.plot(x,y)|x,y : undefined variables|plotting"
+110,Netflix,05.10.19,Fail,STG|for x in range(10)|List out of index [15]|looping
+178,Facebook,07.07.19,Pass,
+154,Zomato,05.03.19,Pass,
+198,UberEats,07.13.19,Pass,
+73,Facebook,07.27.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+148,Hotstar,04.12.19,Fail,STG|for i in Age|list index out of range|looping
+186,Facebook,09.17.19,Fail,PROD|import numpy as np|numpy: Package not found|importing
+10,Uber,06.15.19,Fail,"STG|print(data[""Weight""].std())|column doesnot exist|standard variations"
+76,Facebook,08.04.19,Pass,
+112,Guardian,04.06.19,Pass,
+5,Guardian,05.05.19,Fail,PROD|import seaborn as sns|seaborn: Package not found|Coloring
+166,Facebook,07.28.19,Fail,UAT|fun(20)|arguments undefined in function|pass by value 
+131,Hotstar,05.27.19,Pass,
+149,Zomato,09.30.19,Pass,
+141,UberEats,08.10.19,Pass,
+45,Guardian,05.03.19,Pass,
+55,TechCrunch,09.06.19,Fail,PROD|Not compatible with IOS 13|Update not found|Updating
+90,Hotstar,07.03.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+100,Facebook,05.04.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+117,Uber,06.11.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+101,Instagram,05.27.19,Pass,
+4,Facebook,06.29.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+51,Facebook,04.15.19,Pass,
+100,TechCrunch,08.07.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+39,Guardian,09.26.19,Fail,PROD|Not compatible with IOS 13|Update not found|Updating
+168,Uber,09.14.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+168,UberEats,09.20.19,Fail,DEV|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data
+129,ACM,09.22.19,Pass,
+114,TechCrunch,05.12.19,Fail,PROD|Not compatible with IOS 13|Update not found|Updating
+130,UberEats,04.13.19,Pass,
+81,UberEats,06.28.19,Pass,
+172,TechCrunch,06.23.19,Pass,
+165,Instagram,04.06.19,Fail,PROD|import numpy as np|numpy: Package not found|importing
+66,TechCrunch,06.21.19,Fail,"DEV|print(""a[10]"")|No varible named a|retrive data"
+142,Zomato,04.06.19,Fail,DEV|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data
+21,Guardian,09.16.19,Pass,
+154,Uber,08.28.19,Pass,
+34,Facebook,07.08.19,Pass,
+196,Instagram,05.09.19,Pass,
+154,ACM,06.27.19,Pass,
+7,Facebook,04.04.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+105,Instagram,06.15.19,Pass,
+155,Guardian,08.18.19,Pass,
+73,Instagram,08.15.19,Pass,
+113,TechCrunch,05.25.19,Fail,DEV|plt.show()|displaying graph without plotting it|plotting
+181,Uber,08.18.19,Pass,
+199,TechCrunch,05.26.19,Pass,
+126,Instagram,08.25.19,Fail,STG|for i in Age|list index out of range|looping
+72,Hotstar,07.01.19,Pass,
+182,Facebook,06.06.19,Fail,PROD|Not compatible with IOS 13|Update not found|Updating
+120,Instagram,04.07.19,Pass,
+128,Uber,05.01.19,Fail,PROD|np.arange(8)|numpy array out of range|looping
+130,ACM,07.22.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+8,Uber,04.29.19,Pass,
+64,Hotstar,09.13.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+132,TechCrunch,04.06.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+182,Uber,06.15.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+61,Zomato,06.12.19,Fail,"DEV|for val in ""string"": |val : undefined variable|iteration"
+109,Zomato,05.04.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+165,ACM,09.11.19,Pass,
+174,UberEats,04.04.19,Fail,PROD|np.arange(8)|numpy array out of range|looping
+22,Instagram,05.18.19,Pass,
+36,ACM,09.22.19,Pass,
+71,Uber,07.23.19,Pass,
+144,Facebook,09.01.19,Pass,
+94,Instagram,07.23.19,Fail,"UAT|return func(*args, **kw)|InterruptedError|Handle Interrupt Error"
+6,Guardian,07.03.19,Fail,DEV|print(df.columns)|df: undefined dataframe|retrive data
+46,Hotstar,06.14.19,Pass,
+101,UberEats,04.11.19,Pass,
+147,Hotstar,04.20.19,Pass,
+8,Guardian,08.02.19,Fail,DEV|plt.show()|displaying graph without plotting it|plotting
+164,UberEats,04.05.19,Pass,
+116,Hotstar,06.24.19,Pass,
+64,Uber,06.20.19,Pass,
+131,Facebook,05.27.19,Pass,
+181,UberEats,08.11.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+127,TechCrunch,07.02.19,Fail,DEV|plt.show()|plt:undefined name|displaying
+53,Instagram,06.23.19,Pass,
+199,Uber,05.29.19,Fail,PROD|np.arange(8)|numpy array out of range|looping
+50,TechCrunch,07.30.19,Pass,
+7,Hotstar,08.24.19,Fail,"DEV|for val in ""string"": |val : undefined variable|iteration"
+86,Uber,08.22.19,Fail,PROD|print(('python')*a)|a: variable undefined|retrieve data
+66,Zomato,05.14.19,Fail,"STG|print(data[""Weight""].std())|column doesnot exist|standard variations"
+90,Hotstar,09.03.19,Pass,
+59,UberEats,07.29.19,Pass,
+55,ACM,08.11.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+11,Guardian,05.05.19,Fail,UAT|import pandasa as pd|pandasa: Package not found|importing
+21,Guardian,05.29.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+102,Hotstar,05.23.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+58,UberEats,06.15.19,Fail,DEV|plt.show()|plt:undefined name|displaying
+131,Uber,08.03.19,Pass,
+175,Facebook,04.05.19,Pass,
+88,Netflix,05.19.19,Fail,PROD|Not compatible with IOS 13|Update not found|Updating
+36,Guardian,07.12.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+49,Zomato,07.29.19,Pass,
+6,Hotstar,04.30.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+112,Zomato,07.05.19,Pass,
+126,ACM,04.22.19,Pass,
+187,Netflix,08.05.19,Fail,"UAT|return func(*args, **kw)|InterruptedError|Handle Interrupt Error"
+94,ACM,07.22.19,Pass,
+120,Netflix,05.01.19,Fail,UAT|import pandas as pd|package not found|importing
+3,UberEats,04.29.19,Pass,
+26,TechCrunch,04.30.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+93,Uber,06.23.19,Fail,PROD|np.arange(8)|numpy array out of range|looping
+175,Instagram,07.25.19,Pass,
+36,Zomato,07.25.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+55,Zomato,05.08.19,Pass,
+101,Facebook,07.24.19,Fail,STG|for x in range(10)|List out of index [15]|looping
+142,Hotstar,06.08.19,Fail,UAT|fun(20)|arguments undefined in function|pass by value 
+85,Guardian,04.30.19,Fail,UAT|import matplotlib as plt|matplotlib: Package not found|importing
+160,Zomato,08.19.19,Pass,
+193,Guardian,04.20.19,Pass,
+95,Facebook,05.10.19,Pass,
+71,TechCrunch,04.08.19,Pass,
+123,Instagram,06.11.19,Fail,UAT|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise
+99,Hotstar,05.21.19,Pass,
+26,Instagram,06.08.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+107,Guardian,07.27.19,Pass,
+16,UberEats,04.18.19,Pass,
+74,Hotstar,05.01.19,Fail,STG|while var >! 0:  |invalid operator|validation
+154,Guardian,04.20.19,Fail,"UAT|return func(*args, **kw)|InterruptedError|Handle Interrupt Error"
+86,Hotstar,09.23.19,Pass,
+189,UberEats,04.20.19,Pass,
+181,Instagram,05.13.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+172,ACM,06.20.19,Pass,
+60,Instagram,07.11.19,Pass,
+191,TechCrunch,08.13.19,Pass,
+128,Instagram,07.16.19,Pass,
+122,Instagram,09.23.19,Pass,
+57,TechCrunch,08.02.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+198,ACM,09.08.19,Pass,
+164,Facebook,09.26.19,Fail,"DEV|for val in ""string"": |val : undefined variable|iteration"
+66,TechCrunch,07.31.19,Fail,UAT|import pandas as pd|package not found|importing
+140,Zomato,09.28.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+187,Instagram,08.04.19,Pass,
+124,Guardian,07.07.19,Fail,STG|for x in range(10)|List out of index [15]|looping
+64,TechCrunch,08.28.19,Pass,
+69,ACM,07.16.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+67,UberEats,07.20.19,Pass,
+98,UberEats,07.21.19,Pass,
+51,ACM,09.13.19,Pass,
+163,Hotstar,05.29.19,Pass,
+35,UberEats,05.28.19,Fail,"DEV| print ""Ok""|Missing parentheses in call to 'print'| printing"
+22,Guardian,07.18.19,Fail,DEV|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming
+199,Uber,04.15.19,Pass,
+73,ACM,05.14.19,Pass,
+133,Netflix,09.24.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+144,TechCrunch,04.23.19,Pass,
+200,Guardian,07.20.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+140,UberEats,06.01.19,Pass,
+26,UberEats,09.12.19,Pass,
+173,ACM,06.01.19,Fail,DEV|print(df.columns)|df: undefined dataframe|retrive data
+24,Netflix,07.20.19,Pass,
+36,TechCrunch,08.21.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+152,TechCrunch,09.19.19,Fail,"DEV|plt.plot(x,y)|x,y : undefined variables|plotting"
+11,Instagram,09.12.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+32,TechCrunch,07.27.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+1,Netflix,05.01.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+118,Zomato,07.18.19,Fail,UAT|import pandasa as pd|pandasa: Package not found|importing
+45,TechCrunch,05.05.19,Pass,
+113,TechCrunch,05.06.19,Pass,
+167,Hotstar,05.06.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+96,Instagram,06.09.19,Pass,
+17,Netflix,09.16.19,Pass,
+147,Guardian,08.17.19,Pass,
+20,Uber,04.27.19,Pass,
+156,TechCrunch,07.02.19,Fail,DEV|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming
+123,Guardian,07.10.19,Fail,DEV|print(df.columns)|df: undefined dataframe|retrive data
+110,Guardian,05.31.19,Pass,
+109,Guardian,09.08.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+15,Instagram,09.18.19,Pass,
+101,Netflix,04.19.19,Fail,"DEV|print(""a[10]"")|No varible named a|retrive data"
+78,Hotstar,09.18.19,Pass,
+178,Guardian,04.05.19,Pass,
+48,UberEats,05.21.19,Fail,UAT|import pandasa as pd|pandasa: Package not found|importing
+171,Instagram,06.22.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+109,UberEats,08.23.19,Fail,"DEV|for val in ""string"": |val : undefined variable|iteration"
+10,TechCrunch,06.08.19,Pass,
+166,ACM,05.27.19,Pass,
+20,Netflix,08.16.19,Pass,
+145,Hotstar,09.07.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+74,UberEats,07.01.19,Pass,
+164,Guardian,06.01.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+168,UberEats,04.01.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+52,Facebook,04.06.19,Pass,
+25,Uber,06.25.19,Pass,
+123,Hotstar,04.16.19,Pass,
+126,Zomato,06.17.19,Pass,
+83,Zomato,06.05.19,Pass,
+9,TechCrunch,05.13.19,Pass,
+132,TechCrunch,09.05.19,Pass,
+171,Uber,08.11.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+11,UberEats,09.30.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+31,Instagram,05.24.19,Pass,
+5,Zomato,05.01.19,Pass,
+183,Netflix,04.19.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+71,Zomato,04.28.19,Pass,
+141,Facebook,09.24.19,Pass,
+37,Zomato,04.04.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+90,Uber,05.25.19,Pass,
+11,UberEats,04.08.19,Pass,
+78,Uber,07.29.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+57,TechCrunch,07.06.19,Fail,DEV|plt.show()|displaying graph without plotting it|plotting
+134,TechCrunch,09.29.19,Fail,UAT|import matplotlib as plt|matplotlib: Package not found|importing
+60,Guardian,04.26.19,Pass,
+131,Hotstar,05.28.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+106,Guardian,07.27.19,Pass,
+22,Guardian,06.08.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+8,ACM,05.03.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+99,Zomato,09.15.19,Fail,"DEV| print ""Ok""|Missing parentheses in call to 'print'| printing"
+79,Uber,08.03.19,Fail,PROD|import seaborn as sns|seaborn: Package not found|Coloring
+46,Netflix,04.29.19,Pass,
+171,TechCrunch,06.13.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+140,TechCrunch,07.18.19,Pass,
+76,TechCrunch,09.16.19,Fail,UAT|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise
+76,UberEats,06.29.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+76,Facebook,04.22.19,Pass,
+121,TechCrunch,09.28.19,Pass,
+122,ACM,07.22.19,Pass,
+142,Instagram,07.19.19,Fail,"DEV|plt.plot(x,y)|x,y : undefined variables|plotting"
+155,Zomato,05.30.19,Pass,
+165,UberEats,06.04.19,Pass,
+182,TechCrunch,04.20.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+38,ACM,04.06.19,Pass,
+162,Guardian,07.27.19,Pass,
+18,ACM,05.02.19,Pass,
+85,TechCrunch,05.17.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+75,Uber,07.25.19,Fail,"DEV|print(""a[10]"")|No varible named a|retrive data"
+110,Instagram,09.06.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+118,UberEats,07.26.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+193,Netflix,04.04.19,Pass,
+83,Guardian,05.04.19,Fail,DEV|plt.show()|displaying graph without plotting it|plotting
+192,TechCrunch,09.28.19,Fail,DEV|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data
+147,Netflix,08.22.19,Pass,
+3,UberEats,07.03.19,Pass,
+5,TechCrunch,04.09.19,Pass,
+60,Hotstar,08.21.19,Pass,
+153,Netflix,09.06.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+70,Facebook,09.17.19,Pass,
+32,Zomato,06.02.19,Pass,
+72,Facebook,05.17.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+85,TechCrunch,07.20.19,Fail,STG|for i in Age|list index out of range|looping
+111,ACM,07.18.19,Fail,PROD|import numpy as np|numpy: Package not found|importing
+199,Hotstar,05.08.19,Pass,
+6,Guardian,09.11.19,Pass,
+193,Guardian,06.21.19,Fail,"STG|print(data[""Weight""].std())|column doesnot exist|standard variations"
+160,Instagram,04.28.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+117,ACM,06.28.19,Fail,PROD|np.arange(8)|numpy array out of range|looping
+142,Netflix,08.10.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+1,Uber,04.24.19,Pass,
+94,Hotstar,05.21.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+147,Facebook,09.08.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+192,Zomato,05.07.19,Fail,DEV|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming
+173,Netflix,07.19.19,Pass,
+4,Zomato,04.25.19,Pass,
+39,TechCrunch,06.24.19,Fail,UAT|import pandas as pd|package not found|importing
+125,Hotstar,04.22.19,Fail,UAT|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise
+83,Instagram,09.21.19,Pass,
+57,ACM,07.07.19,Pass,
+59,Hotstar,04.25.19,Pass,
+68,Zomato,04.24.19,Fail,DEV|plt.show()|plt:undefined name|displaying
+161,TechCrunch,06.07.19,Fail,PROD|import seaborn as sns|seaborn: Package not found|Coloring
+53,Uber,04.06.19,Fail,"DEV|plt.plot(x,y)|x,y : undefined variables|plotting"
+96,Facebook,04.10.19,Pass,
+136,Hotstar,07.09.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+2,Netflix,06.15.19,Fail,DEV|plt.show()|displaying graph without plotting it|plotting
+191,Uber,04.05.19,Pass,
+147,TechCrunch,05.16.19,Fail,DEV|print(df.columns)|df: undefined dataframe|retrive data
+139,TechCrunch,06.28.19,Pass,
+59,Hotstar,08.07.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+111,Instagram,04.30.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+17,Guardian,04.10.19,Pass,
+128,Zomato,04.18.19,Fail,UAT|import matplotlib as plt|matplotlib: Package not found|importing
+140,Zomato,08.30.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+85,TechCrunch,05.25.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+82,Facebook,06.18.19,Pass,
+30,Zomato,06.03.19,Pass,
+71,UberEats,06.23.19,Pass,
+188,Guardian,04.24.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+97,Uber,07.27.19,Pass,
+59,Instagram,08.30.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+54,Zomato,09.08.19,Pass,
+153,Instagram,05.14.19,Pass,
+143,Netflix,04.14.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+120,TechCrunch,08.09.19,Pass,
+40,Guardian,04.09.19,Fail,STG|while var >! 0:  |invalid operator|validation
+165,Facebook,04.11.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+200,Guardian,04.04.19,Pass,
+197,UberEats,06.25.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+66,Guardian,08.23.19,Pass,
+196,Guardian,08.10.19,Pass,
+22,ACM,08.15.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+64,Uber,09.28.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+155,TechCrunch,05.12.19,Fail,"STG|print(data[""Weight""].std())|column doesnot exist|standard variations"
+121,Uber,08.22.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+162,UberEats,09.14.19,Pass,
+92,Instagram,08.14.19,Pass,
+86,Uber,07.03.19,Pass,
+175,Instagram,07.03.19,Pass,
+118,Guardian,04.12.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+45,Facebook,08.06.19,Pass,
+134,Facebook,09.13.19,Fail,UAT|form.submit(name[0])|Array index out of bounds|Need to specify name
+138,Zomato,04.04.19,Pass,
+54,Uber,06.23.19,Fail,"STG|for i,j in range()|range expected 1 arguments|parsing"
+14,Instagram,04.27.19,Pass,
+128,Uber,08.25.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+146,ACM,06.01.19,Pass,
+140,UberEats,08.20.19,Fail,PROD|import numpy as np|numpy: Package not found|importing
+104,Uber,05.09.19,Pass,
+91,Uber,06.27.19,Pass,
+4,ACM,09.04.19,Pass,
+66,Uber,04.12.19,Pass,
+26,Facebook,07.05.19,Pass,
+12,Facebook,09.06.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+180,Instagram,06.22.19,Pass,
+185,Guardian,04.06.19,Fail,PROD|print(('python')*a)|a: variable undefined|retrieve data
+170,ACM,08.24.19,Pass,
+14,Uber,05.15.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+135,UberEats,07.14.19,Pass,
+66,Uber,05.09.19,Pass,
+118,Facebook,07.20.19,Fail,"DEV| print ""Ok""|Missing parentheses in call to 'print'| printing"
+80,Uber,06.18.19,Pass,
+154,Hotstar,07.05.19,Fail,UAT|form.submit(name[0])|Array index out of bounds|Need to specify name
+110,Hotstar,07.01.19,Fail,STG|for i in Age|list index out of range|looping
+65,Zomato,07.17.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+98,Guardian,06.03.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+85,Guardian,04.21.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+98,Hotstar,04.25.19,Pass,
+123,Facebook,07.08.19,Pass,
+132,Hotstar,05.01.19,Pass,
+109,TechCrunch,06.03.19,Fail,DEV|plt.show()|displaying graph without plotting it|plotting
+173,Netflix,04.27.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+61,Instagram,08.05.19,Pass,
+68,ACM,06.04.19,Pass,
+170,ACM,08.27.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+28,UberEats,05.11.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+73,Facebook,04.28.19,Fail,DEV|print(df.columns)|df: undefined dataframe|retrive data
+104,TechCrunch,09.22.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+28,Netflix,05.04.19,Fail,STG|while var >! 0:  |invalid operator|validation
+44,Uber,04.02.19,Pass,
+200,Instagram,09.06.19,Pass,
+153,Zomato,06.15.19,Pass,
+116,Guardian,08.01.19,Pass,
+62,TechCrunch,07.10.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+135,Zomato,06.22.19,Fail,DEV|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data
+107,Uber,08.25.19,Pass,
+105,Netflix,08.24.19,Fail,DEV|plt.show()|displaying graph without plotting it|plotting
+66,ACM,08.31.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+80,Uber,05.04.19,Pass,
+158,ACM,07.12.19,Pass,
+97,Uber,08.12.19,Pass,
+92,ACM,09.01.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+20,Hotstar,07.25.19,Fail,UAT|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise
+191,Netflix,09.10.19,Pass,
+33,Instagram,04.19.19,Fail,DEV|print(df.columns)|df: undefined dataframe|retrive data
+126,Hotstar,05.21.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+118,Zomato,09.13.19,Pass,
+125,Netflix,09.11.19,Pass,
+176,ACM,06.27.19,Pass,
+159,Facebook,04.05.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+12,Guardian,09.24.19,Pass,
+194,Zomato,05.26.19,Pass,
+72,Instagram,06.20.19,Pass,
+6,Guardian,08.23.19,Pass,
+2,ACM,06.07.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+94,Guardian,04.26.19,Pass,
+164,Facebook,04.04.19,Fail,"DEV|plt.plot(x,y)|x,y : undefined variables|plotting"
+102,Guardian,07.28.19,Pass,
+86,Facebook,04.03.19,Pass,
+98,Uber,08.02.19,Pass,
+160,Netflix,04.22.19,Pass,
+199,Guardian,04.22.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+118,UberEats,04.04.19,Fail,UAT|import pandas as pd|package not found|importing
+115,Guardian,06.29.19,Pass,
+78,UberEats,08.04.19,Pass,
+178,Netflix,07.08.19,Pass,
+34,UberEats,06.12.19,Pass,
+153,Instagram,04.16.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+179,Hotstar,07.27.19,Fail,"DEV|plt.plot(x,y)|x,y : undefined variables|plotting"
+176,Guardian,06.24.19,Pass,
+102,Netflix,07.08.19,Fail,STG|while var >! 0:  |invalid operator|validation
+137,Guardian,07.28.19,Pass,
+15,Uber,05.04.19,Fail,DEV|plt.show()|displaying graph without plotting it|plotting
+39,Facebook,07.12.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+178,Hotstar,04.03.19,Pass,
+4,Guardian,08.26.19,Pass,
+156,UberEats,08.29.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+87,Instagram,05.03.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+134,Hotstar,09.23.19,Pass,
+188,Instagram,06.11.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+61,Facebook,06.22.19,Pass,
+68,Facebook,08.21.19,Fail,UAT|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise
+130,Facebook,05.05.19,Pass,
+193,Hotstar,05.10.19,Pass,
+79,Netflix,06.23.19,Pass,
+2,Zomato,05.14.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+194,Hotstar,09.18.19,Pass,
+124,ACM,08.15.19,Pass,
+79,Zomato,08.13.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+11,Zomato,07.24.19,Pass,
+89,Instagram,05.15.19,Pass,
+52,Hotstar,07.25.19,Fail,UAT|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise
+147,ACM,04.08.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+161,Guardian,07.19.19,Fail,"STG|for i,j in range()|range expected 1 arguments|parsing"
+72,Facebook,07.14.19,Pass,
+40,Guardian,07.10.19,Pass,
+45,Uber,05.22.19,Fail,UAT|import matplotlib as plt|matplotlib: Package not found|importing
+118,Facebook,09.30.19,Pass,
+135,Netflix,09.02.19,Pass,
+157,Instagram,07.25.19,Fail,"DEV|print(""a[10]"")|No varible named a|retrive data"
+172,Instagram,05.12.19,Pass,
+107,Zomato,05.21.19,Fail,DEV|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming
+41,Zomato,04.13.19,Pass,
+180,UberEats,07.09.19,Fail,"STG|print(data[""Weight""].std())|column doesnot exist|standard variations"
+132,Uber,09.24.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+31,Instagram,09.05.19,Pass,
+2,TechCrunch,07.23.19,Pass,
+77,Hotstar,08.01.19,Pass,
+14,UberEats,05.11.19,Fail,"STG|for i,j in range()|range expected 1 arguments|parsing"
+132,ACM,05.16.19,Pass,
+43,UberEats,04.16.19,Pass,
+23,Guardian,06.27.19,Pass,
+137,Instagram,07.06.19,Fail,"STG|for i,j in range()|range expected 1 arguments|parsing"
+73,UberEats,04.16.19,Pass,
+114,ACM,09.22.19,Pass,
+151,UberEats,05.28.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+191,Hotstar,09.16.19,Pass,
+185,UberEats,08.08.19,Pass,
+66,Guardian,06.06.19,Pass,
+132,ACM,08.14.19,Pass,
+91,Netflix,07.24.19,Pass,
+71,Netflix,04.09.19,Pass,
+158,TechCrunch,04.12.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+200,Facebook,05.27.19,Fail,UAT|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise
+6,UberEats,05.29.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+57,Instagram,09.26.19,Fail,STG|while var >! 0:  |invalid operator|validation
+94,Hotstar,06.06.19,Fail,UAT|import matplotlib as plt|matplotlib: Package not found|importing
+12,Facebook,05.01.19,Pass,
+22,Uber,09.02.19,Pass,
+1,Zomato,06.23.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+103,Facebook,08.01.19,Fail,STG|while var >! 0:  |invalid operator|validation
+53,Guardian,06.30.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+86,Guardian,08.25.19,Fail,DEV|print(df.columns)|df: undefined dataframe|retrive data
+114,Zomato,06.26.19,Fail,STG|for x in range(10)|List out of index [15]|looping
+175,Netflix,04.25.19,Pass,
+71,UberEats,06.22.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+79,Uber,09.25.19,Pass,
+40,Uber,06.04.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+188,Hotstar,07.07.19,Pass,
+63,Uber,04.27.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+161,UberEats,06.10.19,Pass,
+192,Zomato,06.24.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+180,Guardian,09.07.19,Fail,PROD|import numpy as np|numpy: Package not found|importing
+54,ACM,06.11.19,Fail,UAT|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise
+89,Guardian,09.17.19,Pass,
+191,Guardian,07.20.19,Pass,
+93,TechCrunch,05.28.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+192,Uber,05.27.19,Pass,
+148,ACM,04.04.19,Pass,
+149,Uber,04.30.19,Fail,"DEV|print(""a[10]"")|No varible named a|retrive data"
+187,TechCrunch,08.08.19,Pass,
+40,TechCrunch,08.09.19,Fail,DEV|plt.show()|plt:undefined name|displaying
+143,Facebook,05.05.19,Pass,
+51,Facebook,04.19.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+4,TechCrunch,05.09.19,Fail,DEV|plt.show()|plt:undefined name|displaying
+73,TechCrunch,04.06.19,Fail,"UAT|return func(*args, **kw)|InterruptedError|Handle Interrupt Error"
+141,Uber,09.24.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+114,Hotstar,06.25.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+52,Guardian,05.14.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+177,TechCrunch,08.09.19,Pass,
+141,Instagram,08.13.19,Fail,"UAT|return func(*args, **kw)|InterruptedError|Handle Interrupt Error"
+161,ACM,05.11.19,Fail,STG|while var >! 0:  |invalid operator|validation
+87,Zomato,06.02.19,Pass,
+116,ACM,06.08.19,Pass,
+14,Instagram,05.12.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+60,Zomato,09.07.19,Fail,DEV|plt.show()|displaying graph without plotting it|plotting
+61,Netflix,04.25.19,Pass,
+167,UberEats,08.31.19,Pass,
+61,Guardian,08.02.19,Pass,
+156,Zomato,06.03.19,Fail,"DEV|for val in ""string"": |val : undefined variable|iteration"
+192,Instagram,09.21.19,Fail,STG|for i in Age|list index out of range|looping
+119,UberEats,05.13.19,Fail,DEV|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data
+32,Facebook,05.27.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+68,Instagram,08.09.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+190,UberEats,05.29.19,Pass,
+168,UberEats,09.17.19,Pass,
+50,Zomato,08.25.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+160,Zomato,05.21.19,Fail,DEV|plt.show()|plt:undefined name|displaying
+50,TechCrunch,05.10.19,Pass,
+110,Facebook,05.13.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+46,Guardian,09.28.19,Fail,STG|while var >! 0:  |invalid operator|validation
+70,Facebook,06.20.19,Fail,"UAT|return func(*args, **kw)|InterruptedError|Handle Interrupt Error"
+20,TechCrunch,09.30.19,Pass,
+105,ACM,08.27.19,Pass,
+149,Guardian,07.06.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+153,Zomato,04.08.19,Pass,
+17,TechCrunch,05.28.19,Fail,UAT|import pandasa as pd|pandas: Package not found|importing
+167,Netflix,07.18.19,Pass,
+109,UberEats,08.07.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+91,UberEats,06.26.19,Pass,
+132,ACM,06.23.19,Pass,
+53,Zomato,07.26.19,Fail,PROD|import numpy as np|numpy: Package not found|importing
+151,Facebook,09.14.19,Pass,
+90,ACM,04.02.19,Pass,
+150,Zomato,05.01.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+151,Instagram,07.24.19,Fail,DEV|plt.show()|displaying graph without plotting it|plotting
+58,Facebook,09.23.19,Pass,
+176,Netflix,09.28.19,Pass,
+39,Netflix,09.30.19,Pass,
+172,UberEats,08.09.19,Fail,DEV|plt.show()|displaying graph without plotting it|plotting
+38,TechCrunch,04.01.19,Pass,
+171,Zomato,05.07.19,Fail,DEV|plt.show()|plt:undefined name|displaying
+12,ACM,06.21.19,Fail,UAT|import pandas as pd|package not found|importing
+83,Uber,06.29.19,Pass,
+146,Uber,04.23.19,Pass,
+199,UberEats,06.12.19,Pass,
+189,TechCrunch,04.08.19,Fail,UAT|import pandas as pd|package not found|importing
+28,Instagram,04.01.19,Fail,UAT|import matplotlib as plt|matplotlib: Package not found|importing
+24,Hotstar,07.30.19,Pass,
+132,Instagram,08.08.19,Pass,
+112,Uber,06.27.19,Pass,
+152,Netflix,04.06.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+69,Guardian,07.01.19,Pass,
+143,ACM,09.24.19,Pass,
+31,ACM,09.17.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+126,Instagram,08.19.19,Fail,"STG|for i,j in range()|range expected 1 arguments|parsing"
+120,Facebook,08.17.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+22,Hotstar,04.26.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+146,UberEats,09.28.19,Pass,
+90,Hotstar,09.16.19,Fail,UAT|form.submit(name[0])|Array index out of bounds|Need to specify name
+1,Guardian,09.27.19,Pass,
+11,TechCrunch,04.03.19,Pass,
+60,UberEats,06.20.19,Pass,
+128,ACM,09.13.19,Fail,"DEV|print(""a[10]"")|No varible named a|retrive data"
+103,Uber,07.05.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+53,Zomato,08.23.19,Pass,
+196,Uber,09.26.19,Pass,
+38,Guardian,04.27.19,Fail,STG|for i in Age|list index out of range|looping
+106,ACM,05.29.19,Pass,
+12,Zomato,05.31.19,Pass,
+100,Instagram,08.26.19,Pass,
+15,UberEats,09.16.19,Fail,PROD|import numpy as np|numpy: Package not found|importing
+38,Uber,06.30.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+64,Facebook,05.21.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+143,Instagram,07.28.19,Pass,
+192,Hotstar,04.22.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+80,Zomato,09.09.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+13,Hotstar,08.25.19,Pass,
+12,Facebook,06.20.19,Pass,
+151,UberEats,08.25.19,Pass,
+56,Hotstar,05.27.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+86,TechCrunch,07.13.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+159,UberEats,04.08.19,Fail,"DEV| print ""Ok""|Missing parentheses in call to 'print'| printing"
+195,Zomato,04.06.19,Pass,
+50,Netflix,06.14.19,Pass,
+32,Uber,07.27.19,Fail,DEV|plt.show()|displaying graph without plotting it|plotting
+113,Instagram,05.16.19,Fail,PROD|np.arange(8)|numpy array out of range|looping
+48,TechCrunch,07.28.19,Fail,DEV|plt.show()|displaying graph without plotting it|plotting
+17,ACM,05.08.19,Fail,"DEV|plt.plot(x,y)|x,y : undefined variables|plotting"
+125,UberEats,09.28.19,Fail,"UAT|return func(*args, **kw)|InterruptedError|Handle Interrupt Error"
+139,Facebook,06.30.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+54,Instagram,06.01.19,Fail,UAT|form.submit(name[0])|Array index out of bounds|Need to specify name
+28,ACM,05.14.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+163,ACM,06.05.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+119,Uber,06.10.19,Pass,
+194,Hotstar,09.15.19,Fail,DEV|plt.show()|plt:undefined name|displaying
+110,Instagram,09.05.19,Fail,DEV|print(df.columns)|df: undefined dataframe|retrive data
+46,ACM,04.23.19,Pass,
+181,Instagram,07.26.19,Pass,
+148,Hotstar,05.02.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+1,Facebook,04.06.19,Pass,
+160,UberEats,07.25.19,Pass,
+185,Guardian,09.25.19,Pass,
+64,Instagram,06.05.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+183,Hotstar,05.22.19,Pass,
+171,Hotstar,05.17.19,Pass,
+182,Guardian,07.26.19,Pass,
+152,Hotstar,07.23.19,Pass,
+69,Facebook,04.28.19,Pass,
+4,Facebook,07.31.19,Fail,"STG|print(data[""Weight""].std())|column doesnot exist|standard variations"
+108,UberEats,05.22.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+7,UberEats,05.28.19,Pass,
+63,Zomato,04.18.19,Pass,
+142,TechCrunch,07.03.19,Pass,
+120,TechCrunch,07.05.19,Fail,PROD|print(('python')*a)|a: variable undefined|retrieve data
+164,Hotstar,09.28.19,Fail,"DEV|plt.plot(x,y)|x,y : undefined variables|plotting"
+4,Guardian,07.28.19,Pass,
+60,Instagram,09.07.19,Pass,
+196,Uber,07.02.19,Fail,DEV|print(df.columns)|df: undefined dataframe|retrive data
+166,Guardian,09.10.19,Pass,
+21,Hotstar,07.09.19,Pass,
+46,TechCrunch,06.11.19,Pass,
+31,Uber,05.27.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+142,Netflix,09.15.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+80,Guardian,08.09.19,Pass,
+158,ACM,04.07.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+47,Guardian,08.14.19,Pass,
+23,ACM,07.17.19,Pass,
+122,UberEats,06.20.19,Fail,"STG|print(data[""Weight""].std())|column doesnot exist|standard variations"
+9,Zomato,04.02.19,Fail,DEV|plt.show()|plt:undefined name|displaying
+89,ACM,06.02.19,Fail,DEV|plt.show()|displaying graph without plotting it|plotting
+23,Facebook,05.20.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+10,Guardian,06.30.19,Pass,
+123,Hotstar,06.08.19,Pass,
+175,Facebook,06.14.19,Fail,UAT|fun(20)|arguments undefined in function|pass by value 
+91,Hotstar,04.25.19,Fail,"DEV| print ""Ok""|Missing parentheses in call to 'print'| printing"
+113,Zomato,06.17.19,Fail,PROD|np.arange(8)|numpy array out of range|looping
+132,Netflix,05.03.19,Fail,PROD|import seaborn as sns|seaborn: Package not found|Coloring
+78,Facebook,04.01.19,Pass,
+112,Zomato,09.27.19,Pass,
+136,TechCrunch,04.17.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+39,Instagram,05.30.19,Pass,
+4,Guardian,05.23.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+109,UberEats,09.05.19,Fail,UAT|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise
+12,Instagram,06.29.19,Pass,
+141,Guardian,07.13.19,Pass,
+25,TechCrunch,04.20.19,Fail,PROD|print(('python')*a)|a: variable undefined|retrieve data
+90,Guardian,08.07.19,Pass,
+120,Zomato,06.23.19,Pass,
+189,ACM,04.20.19,Pass,
+100,Facebook,05.27.19,Fail,UAT|import matplotlib as plt|matplotlib: Package not found|importing
+41,Guardian,04.04.19,Pass,
+48,Facebook,04.10.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+160,TechCrunch,06.05.19,Pass,
+171,ACM,04.05.19,Pass,
+188,UberEats,09.02.19,Fail,UAT|fun(20)|arguments undefined in function|pass by value 
+36,Facebook,05.27.19,Fail,DEV|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data
+76,ACM,08.06.19,Pass,
+21,ACM,07.01.19,Pass,
+25,Hotstar,04.05.19,Pass,
+123,Zomato,04.12.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+107,UberEats,05.16.19,Fail,"STG|print(data[""Weight""].std())|column doesnot exist|standard variations"
+15,Hotstar,07.14.19,Pass,
+86,UberEats,04.18.19,Pass,
+178,Zomato,09.01.19,Pass,
+185,Instagram,07.23.19,Pass,
+174,Hotstar,08.10.19,Pass,
+70,Uber,07.10.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+117,ACM,09.24.19,Pass,
+70,Netflix,05.20.19,Pass,
+127,UberEats,08.24.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+195,Zomato,07.24.19,Pass,
+159,TechCrunch,07.19.19,Pass,
+56,ACM,06.21.19,Pass,
+37,UberEats,05.31.19,Pass,
+193,Hotstar,04.01.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+64,Uber,05.03.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+179,Hotstar,09.28.19,Pass,
+95,Netflix,06.24.19,Pass,
+16,TechCrunch,09.15.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+3,ACM,04.10.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+187,TechCrunch,08.10.19,Pass,
+131,Zomato,09.24.19,Fail,UAT|fun(20)|arguments undefined in function|pass by value 
+125,Hotstar,09.27.19,Fail,UAT|import matplotlib as plt|matplotlib: Package not found|importing
+182,UberEats,04.19.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+113,UberEats,07.30.19,Pass,
+132,Uber,09.23.19,Pass,
+79,Guardian,06.11.19,Fail,PROD|print(('python')*a)|a: variable undefined|retrieve data
+133,TechCrunch,07.01.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+152,Zomato,05.19.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+4,ACM,07.02.19,Pass,
+66,Instagram,08.05.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+30,Uber,04.28.19,Pass,
+44,ACM,09.28.19,Pass,
+118,Guardian,08.18.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+170,Hotstar,08.25.19,Pass,
+51,Instagram,05.29.19,Pass,
+123,Instagram,08.15.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+14,Facebook,04.20.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+59,TechCrunch,09.20.19,Pass,
+75,Instagram,04.07.19,Pass,
+40,Guardian,04.08.19,Pass,
+81,Hotstar,09.01.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+106,Instagram,08.19.19,Pass,
+143,Zomato,08.20.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+110,UberEats,06.22.19,Pass,
+98,Netflix,08.03.19,Pass,
+6,Netflix,08.27.19,Fail,PROD|np.arange(8)|numpy array out of range|looping
+89,Zomato,04.15.19,Pass,
+162,Netflix,04.21.19,Pass,
+122,ACM,04.07.19,Pass,
+84,Guardian,08.25.19,Pass,
+84,TechCrunch,08.07.19,Fail,UAT|fun(20)|arguments undefined in function|pass by value 
+119,Instagram,07.24.19,Pass,
+123,TechCrunch,07.05.19,Pass,
+136,UberEats,04.10.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+44,Guardian,07.20.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+27,Zomato,04.14.19,Pass,
+7,Guardian,08.29.19,Pass,
+115,UberEats,08.23.19,Pass,
+45,Uber,08.30.19,Pass,
+151,Uber,05.07.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+193,UberEats,05.05.19,Fail,UAT|import pandas as pd|package not found|importing
+149,TechCrunch,05.29.19,Pass,
+41,TechCrunch,05.20.19,Fail,UAT|fun(20)|arguments undefined in function|pass by value 
+9,Instagram,08.02.19,Pass,
+188,UberEats,07.01.19,Fail,"STG|for i,j in range()|range expected 1 arguments|parsing"
+44,Zomato,05.09.19,Fail,UAT|fun(20)|arguments undefined in function|pass by value 
+94,Facebook,09.04.19,Fail,DEV|print(df.columns)|df: undefined dataframe|retrive data
+134,Instagram,06.08.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+118,Uber,07.10.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+132,Netflix,08.29.19,Fail,"DEV| print ""Ok""|Missing parentheses in call to 'print'| printing"
+8,TechCrunch,09.28.19,Pass,
+81,Uber,09.15.19,Pass,
+184,Zomato,08.19.19,Fail,"DEV| print ""Ok""|Missing parentheses in call to 'print'| printing"
+140,Netflix,09.04.19,Pass,
+181,UberEats,09.26.19,Pass,
+158,TechCrunch,07.15.19,Fail,"UAT|return func(*args, **kw)|InterruptedError|Handle Interrupt Error"
+58,Uber,05.02.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+27,UberEats,06.20.19,Fail,DEV|plt.show()|plt:undefined name|displaying
+91,Netflix,09.03.19,Pass,
+169,Zomato,08.19.19,Pass,
+48,Guardian,07.29.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+5,Facebook,09.25.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+8,Hotstar,06.19.19,Pass,
+87,UberEats,09.01.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+100,Guardian,08.22.19,Fail,DEV|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming
+127,Instagram,08.20.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+94,Facebook,05.29.19,Fail,UAT|import pandasa as pd|pandasa: Package not found|importing
+98,Guardian,07.23.19,Pass,
+191,Hotstar,04.22.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+100,Instagram,04.14.19,Pass,
+174,Hotstar,09.24.19,Pass,
+62,Guardian,09.07.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+6,ACM,08.29.19,Pass,
+143,Uber,09.23.19,Fail,PROD|np.arange(8)|numpy array out of range|looping
+114,TechCrunch,05.05.19,Fail,UAT|fun(20)|arguments undefined in function|pass by value 
+134,Zomato,06.01.19,Pass,
+140,Netflix,04.11.19,Fail,DEV|plt.show()|plt:undefined name|displaying
+7,Hotstar,05.25.19,Pass,
+154,Zomato,05.18.19,Fail,UAT|import pandas as pd|package not found|importing
+75,Hotstar,07.03.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+55,Facebook,07.25.19,Pass,
+109,Facebook,09.08.19,Fail,"DEV|plt.plot(x,y)|x,y : undefined variables|plotting"
+26,Zomato,04.01.19,Fail,DEV|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data
+162,Zomato,07.01.19,Pass,
+162,Guardian,09.03.19,Pass,
+114,Netflix,05.21.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+25,TechCrunch,06.13.19,Fail,UAT|import pandasa as pd|pandasa: Package not found|importing
+1,Instagram,09.15.19,Pass,
+76,Hotstar,04.08.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+29,ACM,05.05.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+53,TechCrunch,05.16.19,Fail,UAT|import pandasa as pd|pandas: Package not found|importing
+128,Guardian,04.09.19,Fail,PROD|import numpy as np|numpy: Package not found|importing
+165,Guardian,05.16.19,Fail,UAT|form.submit(name[0])|Array index out of bounds|Need to specify name
+90,Hotstar,09.17.19,Pass,
+27,Uber,08.02.19,Pass,
+182,Uber,09.11.19,Fail,"DEV|print(""a[10]"")|No varible named a|retrive data"
+186,Zomato,08.29.19,Pass,
+117,Guardian,08.18.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+53,TechCrunch,08.30.19,Pass,
+29,ACM,09.04.19,Pass,
+36,Hotstar,05.24.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+169,TechCrunch,04.15.19,Pass,
+191,UberEats,08.08.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+89,Instagram,09.23.19,Pass,
+76,UberEats,06.10.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+179,Hotstar,04.27.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+37,UberEats,08.03.19,Pass,
+188,UberEats,06.18.19,Pass,
+136,UberEats,08.03.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+53,Guardian,08.29.19,Pass,
+45,Uber,04.20.19,Fail,UAT|import pandas as pd|package not found|importing
+60,ACM,07.28.19,Fail,UAT|import pandasa as pd|pandas: Package not found|importing
+41,Hotstar,09.24.19,Pass,
+86,ACM,08.15.19,Pass,
+48,Uber,07.16.19,Pass,
+128,Guardian,05.07.19,Pass,
+62,Zomato,08.07.19,Fail,"DEV|for val in ""string"": |val : undefined variable|iteration"
+64,ACM,08.27.19,Pass,
+76,Facebook,04.01.19,Pass,
+137,ACM,05.07.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+122,UberEats,08.27.19,Pass,
+118,Guardian,05.06.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+165,Uber,05.03.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+76,Guardian,09.13.19,Fail,STG|for i in Age|list index out of range|looping
+41,Instagram,04.09.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+196,UberEats,05.11.19,Pass,
+187,TechCrunch,06.11.19,Fail,DEV|print(df.columns)|df: undefined dataframe|retrive data
+54,ACM,09.01.19,Fail,DEV|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data
+194,Uber,07.09.19,Fail,PROD|np.arange(8)|numpy array out of range|looping
+15,Uber,09.10.19,Fail,PROD|Not compatible with IOS 13|Update not found|Updating
+199,Guardian,06.09.19,Pass,
+56,Guardian,07.03.19,Fail,DEV|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data
+82,Facebook,08.22.19,Fail,"DEV|plt.plot(x,y)|x,y : undefined variables|plotting"
+19,Instagram,04.02.19,Fail,UAT|fun(20)|arguments undefined in function|pass by value 
+158,Hotstar,08.28.19,Pass,
+116,UberEats,06.23.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+154,ACM,04.14.19,Fail,PROD|print(('python')*a)|a: variable undefined|retrieve data
+186,UberEats,07.21.19,Fail,DEV|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data
+106,ACM,05.24.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+163,ACM,04.12.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+31,Facebook,07.14.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+33,Guardian,09.01.19,Pass,
+44,Hotstar,05.07.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+115,Zomato,04.16.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+7,Hotstar,08.11.19,Fail,UAT|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise
+71,TechCrunch,06.07.19,Fail,"DEV|for val in ""string"": |val : undefined variable|iteration"
+161,Zomato,09.08.19,Fail,"UAT|return func(*args, **kw)|InterruptedError|Handle Interrupt Error"
+169,Netflix,09.13.19,Fail,PROD|print(('python')*a)|a: variable undefined|retrieve data
+138,Uber,09.13.19,Pass,
+199,Guardian,08.19.19,Pass,
+174,TechCrunch,06.12.19,Pass,
+43,Facebook,07.15.19,Pass,
+113,Hotstar,04.21.19,Pass,
+38,Netflix,05.17.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+13,Guardian,04.04.19,Fail,"DEV|print(""a[10]"")|No varible named a|retrive data"
+79,Instagram,04.08.19,Pass,
+182,Hotstar,05.01.19,Pass,
+127,Zomato,07.16.19,Pass,
+29,Hotstar,04.13.19,Pass,
+82,TechCrunch,09.12.19,Pass,
+8,TechCrunch,08.03.19,Pass,
+85,Hotstar,04.03.19,Pass,
+178,Uber,09.28.19,Pass,
+14,Zomato,07.03.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+65,Facebook,07.27.19,Pass,
+155,TechCrunch,05.23.19,Pass,
+22,Facebook,04.08.19,Pass,
+22,ACM,07.27.19,Pass,
+23,Facebook,07.27.19,Pass,
+90,Hotstar,05.08.19,Pass,
+179,Netflix,04.26.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+116,Zomato,09.15.19,Fail,UAT|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise
+56,Instagram,05.29.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+127,Hotstar,04.25.19,Pass,
+138,Hotstar,04.25.19,Fail,"DEV|plt.plot(x,y)|x,y : undefined variables|plotting"
+30,UberEats,09.30.19,Pass,
+164,UberEats,07.06.19,Pass,
+132,Zomato,05.01.19,Pass,
+192,ACM,06.13.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+41,Instagram,09.27.19,Fail,STG|while var >! 0:  |invalid operator|validation
+96,Zomato,07.03.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+81,Zomato,07.29.19,Fail,UAT|import pandasa as pd|pandasa: Package not found|importing
+6,Guardian,05.11.19,Pass,
+85,Zomato,04.04.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+181,UberEats,09.11.19,Pass,
+112,Facebook,05.28.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+174,Instagram,07.31.19,Pass,
+8,Facebook,05.27.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+140,Guardian,08.04.19,Pass,
+18,ACM,07.20.19,Pass,
+112,Uber,05.09.19,Fail,"DEV|for val in ""string"": |val : undefined variable|iteration"
+152,Uber,07.19.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+175,Hotstar,04.05.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+93,TechCrunch,05.13.19,Pass,
+113,Netflix,06.30.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+194,Zomato,06.20.19,Pass,
+163,Uber,04.03.19,Pass,
+197,Netflix,04.27.19,Fail,PROD|import numpy as np|numpy: Package not found|importing
+5,TechCrunch,04.10.19,Fail,"STG|for i,j in range()|range expected 1 arguments|parsing"
+84,TechCrunch,06.06.19,Fail,STG|for x in range(10)|List out of index [15]|looping
+171,UberEats,07.21.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+51,Zomato,05.03.19,Pass,
+149,TechCrunch,05.21.19,Fail,DEV|print(df.columns)|df: undefined dataframe|retrive data
+200,TechCrunch,08.31.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+118,Facebook,05.16.19,Pass,
+198,Hotstar,09.30.19,Fail,UAT|form.submit(name[0])|Array index out of bounds|Need to specify name
+53,Zomato,09.21.19,Fail,PROD|Not compatible with IOS 13|Update not found|Updating
+195,Hotstar,09.07.19,Pass,
+65,Uber,04.02.19,Fail,STG|for x in range(10)|List out of index [15]|looping
+19,Hotstar,07.27.19,Pass,
+125,Guardian,05.02.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+68,ACM,05.10.19,Pass,
+184,Instagram,08.12.19,Pass,
+145,UberEats,06.22.19,Fail,DEV|print(df.columns)|df: undefined dataframe|retrive data
+75,Netflix,08.16.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+182,Guardian,07.17.19,Pass,
+83,Facebook,08.06.19,Fail,"STG|print(data[""Weight""].std())|column doesnot exist|standard variations"
+90,Netflix,08.17.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+54,Hotstar,07.27.19,Pass,
+75,Netflix,06.15.19,Fail,PROD|print(('python')*a)|a: variable undefined|retrieve data
+59,Guardian,07.20.19,Pass,
+45,Zomato,08.25.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+56,TechCrunch,04.01.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+85,Facebook,07.02.19,Fail,STG|for x in range(10)|List out of index [15]|looping
+89,UberEats,04.25.19,Pass,
+188,Guardian,09.06.19,Fail,STG|while var >! 0:  |invalid operator|validation
+151,ACM,09.01.19,Pass,
+76,Instagram,09.13.19,Fail,STG|for x in range(10)|List out of index [15]|looping
+16,TechCrunch,04.22.19,Pass,
+49,Guardian,09.22.19,Pass,
+142,Uber,04.02.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+60,TechCrunch,08.08.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+72,Guardian,04.27.19,Pass,
+119,Zomato,07.21.19,Pass,
+179,UberEats,06.02.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+200,Instagram,04.22.19,Pass,
+121,Uber,04.02.19,Pass,
+168,ACM,08.21.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+36,Hotstar,07.18.19,Pass,
+134,UberEats,09.20.19,Pass,
+124,ACM,05.28.19,Pass,
+11,Facebook,09.09.19,Fail,PROD|import numpy as np|numpy: Package not found|importing
+62,Instagram,08.09.19,Pass,
+132,Zomato,08.14.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+116,Hotstar,08.28.19,Fail,DEV|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming
+163,ACM,07.13.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+56,Guardian,07.14.19,Pass,
+38,UberEats,05.24.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+70,TechCrunch,05.14.19,Pass,
+39,Guardian,08.27.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+115,Instagram,04.02.19,Pass,
+83,Facebook,04.20.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+160,Netflix,08.24.19,Pass,
+87,Netflix,08.30.19,Fail,UAT|import pandas as pd|package not found|importing
+184,Guardian,07.25.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+76,ACM,06.18.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+33,TechCrunch,08.17.19,Pass,
+20,Instagram,05.04.19,Fail,UAT|import matplotlib as plt|matplotlib: Package not found|importing
+200,Hotstar,06.11.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+127,Guardian,08.05.19,Pass,
+57,Hotstar,04.29.19,Fail,STG|while var >! 0:  |invalid operator|validation
+2,UberEats,08.15.19,Pass,
+41,Zomato,05.01.19,Fail,"DEV| print ""Ok""|Missing parentheses in call to 'print'| printing"
+33,Facebook,05.11.19,Fail,UAT|form.submit(name[0])|Array index out of bounds|Need to specify name
+82,Facebook,06.13.19,Pass,
+38,Uber,04.09.19,Fail,PROD|import numpy as np|numpy: Package not found|importing
+6,Instagram,07.30.19,Fail,UAT|import pandas as pd|package not found|importing
+1,UberEats,04.28.19,Pass,
+82,Zomato,09.19.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+176,Guardian,06.05.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+9,Uber,09.05.19,Fail,PROD|plt.show()|matplotlib is not imported|visualising
+85,Netflix,08.08.19,Pass,
+82,Guardian,07.07.19,Fail,PROD|import seaborn as sns|seaborn: Package not found|Coloring
+83,TechCrunch,09.16.19,Fail,UAT|import pandasa as pd|pandas: Package not found|importing
+184,Guardian,04.15.19,Fail,DEV|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming
+13,Uber,09.17.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+9,Instagram,04.11.19,Pass,
+58,Facebook,09.14.19,Pass,
+62,Hotstar,08.29.19,Fail,"UAT|return func(*args, **kw)|InterruptedError|Handle Interrupt Error"
+186,Guardian,08.28.19,Pass,
+87,Netflix,06.22.19,Fail,"STG|print(data[""Weight""].std())|column doesnot exist|standard variations"
+114,Instagram,07.29.19,Pass,
+197,Instagram,04.23.19,Fail,"UAT|return func(*args, **kw)|InterruptedError|Handle Interrupt Error"
+123,Guardian,05.11.19,Pass,
+84,UberEats,06.30.19,Pass,
+163,Uber,07.05.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+121,Hotstar,09.28.19,Fail,DEV|plt.show()|displaying graph without plotting it|plotting
+124,Instagram,08.22.19,Fail,PROD|import numpy as np|numpy: Package not found|importing
+90,Uber,04.17.19,Fail,DEV|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data
+42,Uber,08.08.19,Pass,
+199,Guardian,06.30.19,Pass,
+138,Hotstar,06.23.19,Pass,
+129,Uber,05.31.19,Fail,UAT|import matplotlib as plt|matplotlib: Package not found|importing
+199,TechCrunch,08.17.19,Fail,PROD|Not compatible with IOS 13|Update not found|Updating
+18,Netflix,04.01.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+90,Guardian,07.18.19,Pass,
+146,Instagram,09.08.19,Pass,
+83,Netflix,07.19.19,Pass,
+62,Instagram,06.21.19,Fail,DEV|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming
+12,Netflix,06.12.19,Pass,
+19,Instagram,07.08.19,Pass,
+180,TechCrunch,09.04.19,Pass,
+191,Instagram,06.28.19,Pass,
+73,Facebook,06.09.19,Fail,"DEV|plt.plot(x,y)|x,y : undefined variables|plotting"
+25,Facebook,08.22.19,Pass,
+112,UberEats,08.03.19,Pass,
+30,UberEats,04.06.19,Pass,
+94,Hotstar,09.10.19,Pass,
+51,Netflix,05.14.19,Pass,
+67,Hotstar,08.03.19,Fail,DEV|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming
+150,Hotstar,07.18.19,Pass,
+111,UberEats,08.28.19,Pass,
+36,Uber,09.21.19,Pass,
+115,TechCrunch,05.07.19,Pass,
+13,Uber,08.27.19,Pass,
+125,Facebook,04.09.19,Pass,
+63,Instagram,09.30.19,Fail,UAT|form.submit(name[0])|Array index out of bounds|Need to specify name
+49,ACM,08.25.19,Fail,PROD|np.arange(8)|numpy array out of range|looping
+81,Guardian,07.29.19,Fail,PROD|import seaborn as sns|seaborn: Package not found|Coloring
+195,Uber,05.12.19,Fail,UAT|import matplotlib.pyplot as plt|matplotlib: Package not found|visualise
+102,Netflix,04.11.19,Fail,PROD|Not compatible with IOS 13|Update not found|Updating
+81,ACM,04.16.19,Fail,UAT|fun(20)|arguments undefined in function|pass by value 
+196,Zomato,05.11.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+62,Netflix,07.28.19,Pass,
+149,TechCrunch,08.24.19,Fail,"DEV|plt.plot(x,y)|x,y : undefined variables|plotting"
+126,UberEats,05.07.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+10,Uber,07.13.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+132,Guardian,09.17.19,Pass,
+154,Netflix,07.18.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+62,Hotstar,08.15.19,Pass,
+161,Facebook,06.28.19,Pass,
+25,Hotstar,08.30.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+127,Facebook,07.27.19,Fail,STG|for x in range(10)|List out of index [15]|looping
+138,TechCrunch,06.06.19,Pass,
+49,Uber,05.03.19,Pass,
+164,Uber,06.03.19,Fail,"STG|for i,j in range()|range expected 1 arguments|parsing"
+137,Hotstar,09.02.19,Pass,
+200,TechCrunch,06.30.19,Fail,"PROD|import plotly|The plotly.plotly module is deprecated,|importing"
+184,UberEats,06.01.19,Pass,
+190,TechCrunch,09.20.19,Pass,
+83,Netflix,09.25.19,Fail,DEV|print(df.columns)|df: undefined dataframe|retrive data
+108,Uber,04.03.19,Pass,
+73,Instagram,09.19.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+2,Netflix,04.08.19,Fail,STG|for i in Age|list index out of range|looping
+69,Zomato,05.23.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+141,Instagram,07.13.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+177,Uber,04.30.19,Pass,
+51,Instagram,05.08.19,Pass,
+173,UberEats,07.03.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+99,Zomato,06.03.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+125,UberEats,09.18.19,Pass,
+88,Guardian,05.07.19,Pass,
+19,Instagram,09.27.19,Pass,
+30,UberEats,07.18.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+8,TechCrunch,08.06.19,Fail,"DEV|print(data.[""Name""])|No column named ""Name""|retrive data"
+178,ACM,08.30.19,Fail,DEV|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming
+51,Instagram,04.08.19,Pass,
+151,Guardian,06.04.19,Fail,DEV|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data
+179,ACM,04.10.19,Pass,
+50,Guardian,07.22.19,Fail,UAT|form.submit(name[0])|Array index out of bounds|Need to specify name
+54,Instagram,07.14.19,Fail,"DEV| print ""Ok""|Missing parentheses in call to 'print'| printing"
+195,Guardian,09.27.19,Fail,STG|for i in Age|list index out of range|looping
+118,TechCrunch,04.06.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+49,Guardian,08.23.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+52,ACM,07.05.19,Fail,DEV|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming
+34,Netflix,07.30.19,Pass,
+176,Zomato,06.19.19,Fail,PROD|Not compatible with IOS 13|Update not found|Updating
+159,UberEats,04.07.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+181,UberEats,05.09.19,Pass,
+39,ACM,08.29.19,Pass,
+13,Facebook,08.31.19,Pass,
+131,Guardian,08.07.19,Pass,
+76,Hotstar,07.10.19,Pass,
+43,Netflix,06.02.19,Pass,
+146,Uber,05.21.19,Pass,
+100,ACM,05.15.19,Fail,UAT|fun(20)|arguments undefined in function|pass by value 
+147,TechCrunch,05.13.19,Pass,
+72,Hotstar,09.30.19,Pass,
+77,TechCrunch,04.11.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+169,Uber,05.12.19,Pass,
+8,Zomato,05.16.19,Pass,
+85,Hotstar,05.03.19,Fail,STG|for i in Age|list index out of range|looping
+89,Zomato,09.21.19,Fail,PROD|np.arange(8)|numpy array out of range|looping
+130,UberEats,06.20.19,Pass,
+8,Instagram,07.02.19,Fail,"DEV|plt.plot(x,y)|x,y : undefined variables|plotting"
+122,Netflix,05.12.19,Fail,UAT|import pandasa as pd|pandas: Package not found|importing
+91,TechCrunch,04.01.19,Fail,"UAT|return func(*args, **kw)|InterruptedError|Handle Interrupt Error"
+46,Facebook,09.12.19,Pass,
+102,Hotstar,07.17.19,Pass,
+131,TechCrunch,08.09.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+48,Zomato,07.08.19,Pass,
+23,UberEats,07.23.19,Pass,
+155,TechCrunch,06.04.19,Pass,
+163,Guardian,08.08.19,Pass,
+25,UberEats,05.03.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+109,UberEats,06.14.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+112,Instagram,05.11.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+108,ACM,06.01.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+153,Uber,07.29.19,Fail,UAT|import matplotlib.pyplot as plt|matplot: Package not found|importing
+44,Netflix,05.12.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+114,ACM,07.09.19,Fail,STG|for x in range(10)|List out of index [15]|looping
+159,ACM,09.17.19,Pass,
+49,Uber,08.24.19,Pass,
+69,Zomato,04.18.19,Pass,
+85,Uber,04.15.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+108,Zomato,07.13.19,Pass,
+169,Zomato,08.09.19,Pass,
+143,Uber,06.23.19,Fail,STG|for i in Age|list index out of range|looping
+93,Zomato,07.01.19,Pass,
+81,Facebook,07.12.19,Fail,PROD|np.arange(8)|numpy array out of range|looping
+158,UberEats,04.08.19,Pass,
+75,Facebook,04.15.19,Fail,DEV|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data
+24,Facebook,04.24.19,Fail,DEV|plt.show()|displaying graph without plotting it|plotting
+82,Hotstar,06.02.19,Pass,
+98,Zomato,09.27.19,Pass,
+31,TechCrunch,06.17.19,Fail,DEV|data = pd.read_csv('usecase.csv')|file doesnot exist|retrive data
+32,Netflix,09.28.19,Pass,
+114,Zomato,07.06.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+92,UberEats,06.13.19,Fail,DEV|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming
+41,UberEats,09.13.19,Pass,
+59,Hotstar,05.04.19,Pass,
+151,Instagram,06.23.19,Pass,
+52,Netflix,09.04.19,Pass,
+144,Uber,09.23.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+85,ACM,09.18.19,Pass,
+171,Zomato,05.26.19,Fail,"DEV| for x,d in data.Height, data.shape[0]| too many values to unpack|looping"
+4,ACM,07.21.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+138,Uber,08.23.19,Pass,
+9,Uber,06.25.19,Fail,"UAT|return func(*args, **kw)|InterruptedError|Handle Interrupt Error"
+181,Netflix,07.05.19,Pass,
+132,TechCrunch,08.01.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+47,Uber,09.13.19,Fail,DEV|import seaborn as sns|seaborn: package not found|importing
+173,Hotstar,04.16.19,Fail,"DEV|plt.plot(x,y)|x,y : undefined variables|plotting"
+94,UberEats,05.25.19,Pass,
+174,Zomato,08.18.19,Fail,UAT|fun(20)|arguments undefined in function|pass by value 
+107,UberEats,04.08.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+55,Uber,08.11.19,Pass,
+130,TechCrunch,07.31.19,Pass,
+183,Facebook,05.23.19,Fail,STG|for x in range(10)|List out of index [15]|looping
+150,Uber,07.22.19,Pass,
+168,Netflix,05.21.19,Fail,DEV|print(df.columns)|df: undefined dataframe|retrive data
+5,Uber,05.08.19,Pass,
+59,Uber,07.11.19,Pass,
+185,Facebook,06.13.19,Pass,
+21,Netflix,05.27.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+100,UberEats,08.02.19,Pass,
+190,UberEats,08.11.19,Fail,PROD|print(('python')*a)|a: variable undefined|retrieve data
+115,Facebook,04.08.19,Fail,UAT|fun(20)|arguments undefined in function|pass by value 
+192,Uber,05.13.19,Pass,
+103,UberEats,08.05.19,Pass,
+87,Guardian,04.24.19,Pass,
+96,TechCrunch,08.04.19,Fail,DEV|df.read_csv(...)|file not found|Importing file
+127,UberEats,05.13.19,Fail,"DEV|for val in ""string"": |val : undefined variable|iteration"
+184,Facebook,06.25.19,Pass,
+157,Hotstar,04.18.19,Fail,"DEV|for val in ""string"": |val : undefined variable|iteration"
+176,Instagram,05.02.19,Fail,STG| if i>5 |SyntaxError: invalid syntax |decision control
+49,Instagram,08.15.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+36,Guardian,07.16.19,Pass,
+48,UberEats,08.22.19,Fail,UAT|import pandas as pd|package not found|importing
+106,Instagram,04.28.19,Pass,
+167,Hotstar,05.21.19,Pass,
+192,Netflix,05.24.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
+27,Instagram,05.05.19,Pass,
+164,Zomato,09.05.19,Pass,
+175,Zomato,09.12.19,Pass,
+93,Netflix,08.24.19,Fail,"STG|for i in range(0,2)|List out of Index [23]|looping"
+116,Uber,09.11.19,Pass,
+112,Guardian,06.30.19,Fail,"PROD|data.replace(data.Name, 'NA')|Not replacing all values in Name column|manipulating data"
+11,Hotstar,08.14.19,Pass,
+141,Facebook,05.15.19,Pass,
+16,ACM,04.27.19,Pass,
+143,Hotstar,08.01.19,Pass,
+182,Hotstar,07.05.19,Fail,"PROD| client.post_telemetry(navsat_msg, compass_msg)|TimeoutError|Accept TimeoutError Properly"
+117,Facebook,09.22.19,Fail,"DEV|print(""sum is"",a+b)|No varibles named a and b|retrive data"
+195,Guardian,09.10.19,Fail,UAT|import matplotlib as plt|matplotlib: Package not found|importing
+163,UberEats,08.13.19,Pass,
+127,TechCrunch,09.01.19,Fail,STG|while var >! 0:  |invalid operator|validation
+103,Facebook,07.20.19,Fail,STG|while var >! 0:  |invalid operator|validation
+48,Uber,06.17.19,Fail,UAT|fun(20)|arguments undefined in function|pass by value 
+8,Guardian,07.29.19,Pass,
+139,Guardian,07.05.19,Pass,
+29,Uber,07.06.19,Pass,
+182,ACM,07.16.19,Fail,DEV|df = df[df['Android Ver'] != np.nan]|name 'df' is not defined|renaming
+33,UberEats,09.23.19,Fail,UAT|import pandasa as pd|pandasa: Package not found|importing
+93,UberEats,07.24.19,Pass,
+138,Guardian,06.23.19,Pass,
+174,Zomato,04.04.19,Fail,"PROD| plt.rc(""font"",""size""=14)| keyword can't be an expression| setting RC parameter"
+71,TechCrunch,07.10.19,Pass,
+41,Uber,04.03.19,Pass,
+178,Uber,06.05.19,Fail,STG|import matplotlib.pyplot as plt|matplotlib: Package not found|importing
+168,Netflix,09.18.19,Fail,"UAT| a=pd.readcsv(""testcase.csv"")| module 'pandas' has no attribute 'readcsv'|reading"
